@@ -69,8 +69,12 @@
       "pattern": "^Aisten/\\d"
     },
     {
+      "name": "Alarmcast",
+      "pattern": "^Alarmcast/\\d"
+    },
+    {
       "name": "Alexa-enabled device",
-      "pattern": "^AlexaMediaPlayer/[\\dv]|^Echo/|^AlexaService/|^Alexa Mobile Voice/|^Amazon;Echo"
+      "pattern": "^AlexaMediaPlayer/[\\dv]|^Echo/|^AlexaService/|^Alexa Mobile Voice/|^Amazon;Echo|^AmazonAVS/|^AvsDeviceSdk/"
     },
     {
       "name": "AlienBlue",
@@ -147,6 +151,10 @@
     {
       "name": "Apollo",
       "pattern": "^Apollo/|Apollo Podcasts \\(android\\)"
+    },
+    {
+      "name": "Apple AirPlay",
+      "pattern": "^AirPlay/\\d.*MFi_AirPlay_Device"
     },
     {
       "name": "Apple HomePod",
@@ -313,6 +321,10 @@
       "pattern": "iOS BT Hermes/"
     },
     {
+      "name": "BetterCast",
+      "pattern": "^BetterCast/"
+    },
+    {
       "name": "BeyondPod",
       "pattern": "; BeyondPod"
     },
@@ -381,6 +393,10 @@
       "pattern": "^BrewApp/"
     },
     {
+      "name": "Brink",
+      "pattern": "^Brink/"
+    },
+    {
       "name": "Broadcast",
       "pattern": "^Broadcast/"
     },
@@ -410,7 +426,7 @@
     },
     {
       "name": "CampfireFM",
-      "pattern": "^Campfire/"
+      "pattern": "^Campfire(FM)?/"
     },
     {
       "name": "Canvas",
@@ -423,6 +439,10 @@
     {
       "name": "capsule.fm",
       "pattern": "^capsule\\.fm/|^capsule-android"
+    },
+    {
+      "name": "Car Curious",
+      "pattern": "^CarCurious/"
     },
     {
       "name": "Cast",
@@ -449,8 +469,8 @@
       "pattern": "^castero \\d"
     },
     {
-      "name": "castget",
-      "pattern": "^castget "
+      "name": "Castria",
+      "pattern": "^Castria/\\d"
     },
     {
       "name": "Castro",
@@ -714,7 +734,11 @@
     },
     {
       "name": "Earsay",
-      "pattern": "^Earsay/"
+      "pattern": "^[Ee]arsay/"
+    },
+    {
+      "name": "Earshot",
+      "pattern": "^Earshot/"
     },
     {
       "name": "EasyGet",
@@ -841,6 +865,14 @@
       "pattern": "(^MAC |^WIN )"
     },
     {
+      "name": "Flipboard",
+      "pattern": " Flipboard/"
+    },
+    {
+      "name": "Flux Entertainment Center",
+      "pattern": "^Flux Entertainment Center/"
+    },
+    {
       "name": "folkebladet.no",
       "pattern": "^folkebladet\\.no/"
     },
@@ -907,6 +939,10 @@
     {
       "name": "GBEngine",
       "pattern": "^GBEngine/"
+    },
+    {
+      "name": "Gertrude Podcasts",
+      "pattern": "^Gertrude%20Podcasts/"
     },
     {
       "name": "GMB Show",
@@ -1365,6 +1401,10 @@
       "pattern": "^Metacast/| \\+metacast\\.app"
     },
     {
+      "name": "Micropod",
+      "pattern": "^Micropod/"
+    },
+    {
       "name": "Microsoft Outlook",
       "pattern": "^Outlook-Android/|^Microsoft Office/.*?Microsoft Outlook"
     },
@@ -1469,6 +1509,10 @@
       "pattern": "nl\\.nrc\\.nrcapp|^NRC-Nieuws/|com\\.twipemobile\\.nrc"
     },
     {
+      "name": "Once Upon a Pod",
+      "pattern": "^OnceUponAPod/"
+    },
+    {
       "name": "OpenStream",
       "pattern": "^OpenStream/\\d"
     },
@@ -1526,7 +1570,7 @@
     },
     {
       "name": "Pocket Casts",
-      "pattern": "^Pocket Casts|^Pocket%20Casts|^PocketCasts/|^Shifty Jelly Pocket Casts"
+      "pattern": "^Pocket Casts|^Pocket%20Casts|^PocketCasts/|^Shifty Jelly Pocket Casts| PocketCasts/\\d"
     },
     {
       "name": "Podbay",
@@ -1535,6 +1579,10 @@
     {
       "name": "Podbean",
       "pattern": "^Podbean/"
+    },
+    {
+      "name": "Podcast Ever",
+      "pattern": "^Podcast%20Ever/"
     },
     {
       "name": "Podcast Guru",
@@ -1559,6 +1607,10 @@
     {
       "name": "Podcastly",
       "pattern": "^Podcastly/|^Podcastly$"
+    },
+    {
+      "name": "Podcast Parrot",
+      "pattern": "^Podcast(%20)?Parrot/\\d"
     },
     {
       "name": "Podcast Saver",
@@ -1693,12 +1745,20 @@
       "pattern": "^Pratilipi FM/\\d"
     },
     {
+      "name": "PrestoCast",
+      "pattern": "^(PrestoCast|PrestoCastDev)/"
+    },
+    {
       "name": "ProCast",
       "pattern": "^Pro[Cc]ast/\\d|^com\\.podflitzer\\.android/\\d|^Procast \\("
     },
     {
       "name": "PugPig Bolt",
       "pattern": "^PugpigBolt "
+    },
+    {
+      "name": "PulsarCast",
+      "pattern": "^PulsarCast/"
     },
     {
       "name": "PurerPodcasts",
@@ -1743,6 +1803,10 @@
     {
       "name": "Radios México",
       "pattern": "^Radios%20M%C3%A9xico/\\d"
+    },
+    {
+      "name": "ReadYou",
+      "pattern": "^ReadYou/"
     },
     {
       "name": "Reeder",
@@ -1805,6 +1869,10 @@
       "pattern": "^Shadow"
     },
     {
+      "name": "Shuttle Podcasts",
+      "pattern": "^ShuttlePodcasts/\\d"
+    },
+    {
       "name": "SiriusXM",
       "pattern": "^SiriusXM/\\d|SXMApp|sxm-android|sxm-apple/"
     },
@@ -1847,6 +1915,10 @@
     {
       "name": "SoundWaves",
       "pattern": "^SoundWaves-\\d"
+    },
+    {
+      "name": "Spool",
+      "pattern": "^Spool/"
     },
     {
       "name": "Sportbladet Android app",
@@ -1973,12 +2045,24 @@
       "pattern": "^ThePodcastApp|iOS.*The Podcast App/|com\\.evolve\\.podcast/|^podcast/\\d* |^PodcastApp/\\d"
     },
     {
+      "name": "The Podcast App (Magnolia Apps)",
+      "pattern": "^TPA/\\d|^TPA-Wear/"
+    },
+    {
       "name": "Twipe Mobile App",
       "pattern": "^TwipeMobileApp"
     },
     {
       "name": "miaocast",
       "pattern": "^miaocast "
+    },
+    {
+      "name": "Mediamax Waves",
+      "pattern": "^MediamaxWaves/"
+    },
+    {
+      "name": "Momo",
+      "pattern": "^Momo-Podcast/"
     },
     {
       "name": "Mozilla Thunderbird",
@@ -2029,6 +2113,10 @@
       "pattern": "^Updates/"
     },
     {
+      "name": "Up Next",
+      "pattern": "^UpNext/"
+    },
+    {
       "name": "uTorrent",
       "pattern": "^uTorrent|BTWebClient"
     },
@@ -2051,6 +2139,10 @@
     {
       "name": "VLC media player",
       "pattern": "^VLC/\\d"
+    },
+    {
+      "name": "Vo",
+      "pattern": "^Vo/"
     },
     {
       "name": "Vodacast",
@@ -2118,7 +2210,7 @@
     },
     {
       "name": "YouTube Music",
-      "pattern": "^com\\.google\\.android\\.apps\\.youtube\\.music/|^YouTubeMusic/\\d|^com\\.google\\.ios\\.youtubemusic/"
+      "pattern": "^com\\.google\\.android\\.apps\\.youtube\\.music/|^YouTubeMusic/\\d|^com\\.google\\.ios\\.youtubemusic/|^YouTube Music/\\d"
     },
     {
       "name": "YouTube Music (ReVanced)",

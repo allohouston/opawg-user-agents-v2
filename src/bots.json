@@ -29,6 +29,13 @@
       ]
     },
     {
+      "name": "AccountingPodcastDownloader",
+      "pattern": "AccountingPodcastDownloader/",
+      "examples": [
+        "Mozilla/5.0 AccountingPodcastDownloader/1.0"
+      ]
+    },
+    {
       "name": "Adswizz",
       "pattern": "^AIS VirtualListener",
       "urls": [
@@ -191,6 +198,13 @@
       ]
     },
     {
+      "name": "atlas-transcribe",
+      "pattern": "^atlas-transcribe/",
+      "examples": [
+        "atlas-transcribe/1.0"
+      ]
+    },
+    {
       "name": "Audacy Creator Lab Hosting",
       "pattern": "^Audacy Creator Lab Hosting/",
       "examples": [
@@ -216,6 +230,13 @@
       "pattern": "^Audiomack Podcast Processor/",
       "examples": [
         "Audiomack Podcast Processor/1.0 (https://audiomack.com/)"
+      ]
+    },
+    {
+      "name": "audio-sanity-check",
+      "pattern": "^audio-sanity-check/",
+      "examples": [
+        "audio-sanity-check/1.0"
       ]
     },
     {
@@ -284,6 +305,13 @@
       ],
       "urls": [
         "https://getbeacons.com/"
+      ]
+    },
+    {
+      "name": "Beehiiv podcast importer",
+      "pattern": "^beehiiv-podcast-importer/",
+      "examples": [
+        "beehiiv-podcast-importer/1.0"
       ]
     },
     {
@@ -378,11 +406,39 @@
       ]
     },
     {
+      "name": "castget",
+      "pattern": "^castget |^castget$",
+      "urls": [
+        "https://castget.johndal.com/"
+      ],
+      "examples": [
+        "castget 1.2.4 (castget rss enclosure downloader)",
+        "castget"
+      ]
+    },
+    {
+      "name": "Castnews",
+      "pattern": "^Castnews-Topiker/",
+      "examples": [
+        "Castnews-Topiker/1.0 (+https://index.castnews.com.br)"
+      ],
+      "urls": [
+        "https://index.castnews.com.br"
+      ]
+    },
+    {
       "name": "Castopod",
       "pattern": "Castopod/\\d",
       "examples": [
         "Castopod/1.0",
         "Castopod/1.1.2"
+      ]
+    },
+    {
+      "name": "Castro automated actions",
+      "pattern": "^Tentacles, Like iTunes$",
+      "examples": [
+        "Tentacles, Like iTunes"
       ]
     },
     {
@@ -403,6 +459,17 @@
       ]
     },
     {
+      "name": "Christianity at Scale Bot",
+      "pattern": "^ChristianityAtScaleBot/",
+      "description": "Christianity at Scale's research crawler: reads public podcast RSS feeds and publisher transcripts, and downloads episode audio for transcription.",
+      "examples": [
+        "ChristianityAtScaleBot/1.0 (+https://christianityatscale.com/bot; bot@christianityatscale.com)"
+      ],
+      "urls": [
+        "https://christianityatscale.com/bot"
+      ]
+    },
+    {
       "name": "Clark-Crawler, unknown",
       "pattern": "^clark-crawler2"
     },
@@ -415,6 +482,23 @@
       ],
       "examples": [
         "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+      ]
+    },
+    {
+      "name": "clipgenie-service-worker",
+      "pattern": "^clipgenie-service-worker$",
+      "examples": [
+        "clipgenie-service-worker"
+      ]
+    },
+    {
+      "name": "CloudConvert",
+      "pattern": "^CloudConvert",
+      "examples": [
+        "CloudConvert"
+      ],
+      "urls": [
+        "https://cloudconvert.com/"
       ]
     },
     {
@@ -438,11 +522,32 @@
       ]
     },
     {
+      "name": "ContentFlow",
+      "pattern": "^ContentFlow/",
+      "examples": [
+        "ContentFlow/1.0 (Podcast Audio Downloader)"
+      ]
+    },
+    {
+      "name": "ConduitMCP",
+      "pattern": "^ConduitMCP/",
+      "examples": [
+        "ConduitMCP/1.0 (+Lab36)"
+      ]
+    },
+    {
       "name": "Critical Mention",
       "pattern": "^Podcast-CriticalMention/",
       "description": "Critical Mention is a business intelligence company, monitoring podcasts on the web for their clients",
       "examples": [
         "Podcast-CriticalMention/1.0"
+      ]
+    },
+    {
+      "name": "Crowli",
+      "pattern": " Crowli/",
+      "examples": [
+        "Mozilla/5.0 (compatible; Crowli/1.0; +http://www.miniradioplayer.net/crowli.html)"
       ]
     },
     {
@@ -477,6 +582,13 @@
       ]
     },
     {
+      "name": "data-pipeline-downloader",
+      "pattern": "data-pipeline-downloader/",
+      "examples": [
+        "Mozilla/5.0 (compatible; data-pipeline-downloader/1.0)"
+      ]
+    },
+    {
       "name": "Daum",
       "pattern": "http://cs\\.daum\\.net",
       "examples": [
@@ -494,8 +606,25 @@
       ]
     },
     {
+      "name": "Deepgram",
+      "pattern": "^Deepgram$",
+      "examples": [
+        "Deepgram"
+      ],
+      "urls": [
+        "https://deepgram.com/"
+      ]
+    },
+    {
       "name": "Deezer Podcasters",
       "pattern": "^Deezer Podcasters/1\\.0"
+    },
+    {
+      "name": "DIFTCL-AnchorAudit",
+      "pattern": "^DIFTCL-AnchorAudit/",
+      "examples": [
+        "DIFTCL-AnchorAudit/1.0 (+read-only; rate-limited)"
+      ]
     },
     {
       "name": "Digg",
@@ -528,6 +657,13 @@
       "pattern": "DuckDuckBot",
       "examples": [
         "Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)"
+      ]
+    },
+    {
+      "name": "DutchPodcastScraper",
+      "pattern": "^DutchPodcastScraper/",
+      "examples": [
+        "DutchPodcastScraper/1.0 (research; episode audio collection)"
       ]
     },
     {
@@ -650,12 +786,22 @@
       ]
     },
     {
+      "name": "Google Gemini",
+      "pattern": "^GoogleAgent-URLContext",
+      "examples": [
+        "GoogleAgent-URLContext"
+      ],
+      "urls": [
+        "https://ai.google.dev/gemini-api/docs/url-context"
+      ]
+    },
+    {
       "name": "Google Podcasts Manager",
       "pattern": "Google-Podcast"
     },
     {
       "name": "Googlebot",
-      "pattern": "Googlebot/|Googlebot-Video/|Googlebot-Image/|^Feed[fF]etcher-Google|google-xrawler|^Googlebot-News|^Google-Safety$",
+      "pattern": "Googlebot/|Googlebot-Video/|Googlebot-Image/|^Feed[fF]etcher-Google|google-xrawler|^Googlebot-News|^Google-Safety$|^GoogleOther-Video/\\d",
       "description": "Google's search bots",
       "urls": [
         "http://www.google.com/bot.html"
@@ -667,7 +813,22 @@
         "google-xrawler",
         "Googlebot-News Audio",
         "Google-Safety",
-        "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)"
+        "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)",
+        "GoogleOther-Video/1.0"
+      ]
+    },
+    {
+      "name": "gpt-in-mind-podcasts",
+      "pattern": "^gpt-in-mind-podcasts",
+      "examples": [
+        "gpt-in-mind-podcasts-v2/0.1 (research)"
+      ]
+    },
+    {
+      "name": "GuestPrimer",
+      "pattern": "^GuestPrimer/",
+      "examples": [
+        "GuestPrimer/1.0"
       ]
     },
     {
@@ -772,6 +933,23 @@
       ]
     },
     {
+      "name": "kidou-downloader",
+      "pattern": " kidou-downloader/",
+      "examples": [
+        "Mozilla/5.0 (compatible; kidou-downloader/1.0)"
+      ]
+    },
+    {
+      "name": "KutPod Importer",
+      "pattern": "^KutPod-Importer/",
+      "examples": [
+        "KutPod-Importer/1.0 (+https://kutpod.io)"
+      ],
+      "urls": [
+        "https://kutpod.io"
+      ]
+    },
+    {
       "name": "l'Institut national de l'audiovisuel",
       "pattern": "INA dlweb",
       "urls": [
@@ -815,6 +993,13 @@
       ]
     },
     {
+      "name": "LinuxGetUrl",
+      "pattern": "^LinuxGetUrl/\\d",
+      "examples": [
+        "LinuxGetUrl/2.0 closedaiengine@umich.edu (Linux)"
+      ]
+    },
+    {
       "name": "Livelap Crawler",
       "pattern": "LivelapBot"
     },
@@ -829,6 +1014,13 @@
       ]
     },
     {
+      "name": "llmfeed",
+      "pattern": "^llmfeed/",
+      "examples": [
+        "llmfeed/2.0 (+https://github.com/llmfeed)"
+      ]
+    },
+    {
       "name": "LTX71",
       "pattern": "^ltx71 ",
       "description": "We continuously scan the internet for security research purposes.",
@@ -840,6 +1032,17 @@
       ]
     },
     {
+      "name": "lychee",
+      "pattern": "^lychee/\\d",
+      "description": "Broken link checker",
+      "urls": [
+        "https://lychee.cli.rs/"
+      ],
+      "examples": [
+        "lychee/0.24.2"
+      ]
+    },
+    {
       "name": "MacOS share menu",
       "pattern": "^ShareSheetUI/",
       "examples": [
@@ -847,6 +1050,14 @@
         "ShareSheetUI/1 CFNetwork/1474 Darwin/23.0.0"
       ],
       "comments": "Found on MacOS 13 (Ventura) and higher e.g. when right-clicking an enclosure link from Safari and choosing Share..."
+    },
+    {
+      "name": "MagellanAI",
+      "pattern": "^MagellanAI/",
+      "examples": [
+        "MagellanAI/1.0.4270",
+        "MagellanAI/1.0.4285"
+      ]
     },
     {
       "name": "magic-podcast-downloader",
@@ -883,6 +1094,17 @@
       ]
     },
     {
+      "name": "Meow Podcast transcription bot",
+      "pattern": "^MeowPodcastBot/",
+      "description": "Meow Podcast's transcription bot: downloads public podcast episode audio to make the word-by-word transcripts learners read along with in the Meow Podcast app.",
+      "examples": [
+        "MeowPodcastBot/1.0 (+https://meowpodcast.co/bot)"
+      ],
+      "urls": [
+        "https://meowpodcast.co/bot"
+      ]
+    },
+    {
       "name": "Metacast Crawler",
       "pattern": "^Metacast/.* Crawler",
       "examples": [
@@ -890,6 +1112,16 @@
       ],
       "urls": [
         "https://metacast.app/"
+      ]
+    },
+    {
+      "name": "Metapodcast",
+      "pattern": "^MetapodcastV2/",
+      "examples": [
+        "MetapodcastV2/1.0"
+      ],
+      "urls": [
+        "https://metapodcast.net/"
       ]
     },
     {
@@ -1006,6 +1238,17 @@
       ]
     },
     {
+      "name": "od·tune",
+      "pattern": "^odtune/",
+      "examples": [
+        "odtune/0.0.0-dev (+https://odtune.com/about; podcasts@odtune.com)",
+        "odtune/cd932c5 (+https://odtune.com/about; podcasts@odtune.com)"
+      ],
+      "urls": [
+        "https://odtune.com/about"
+      ]
+    },
+    {
       "name": "OgScrper",
       "pattern": "OgScrper",
       "examples": [
@@ -1021,6 +1264,17 @@
       "pattern": "^OmnyStudio/\\d",
       "examples": [
         "OmnyStudio/1.0"
+      ]
+    },
+    {
+      "name": "Once Upon a Pod feed fetcher",
+      "pattern": "^OnceUponAPod/[\\d.]+ Feed Fetcher",
+      "description": "Once Upon a Pod's server reading public RSS feeds to list new episodes.",
+      "examples": [
+        "OnceUponAPod/1.0 Feed Fetcher (+https://www.onceuponapod.com)"
+      ],
+      "urls": [
+        "https://www.onceuponapod.com/"
       ]
     },
     {
@@ -1042,6 +1296,18 @@
       ],
       "urls": [
         "https://openai.com/gptbot"
+      ]
+    },
+    {
+      "name": "OppnabolagBot",
+      "pattern": "^OppnabolagBot",
+      "description": "Öppna bolag's podcast bot. OppnabolagBot fetches public podcast feeds (RSS) for a podcast directory; OppnabolagBot-Audio downloads episode audio to analyse its content.",
+      "urls": [
+        "https://oppnabolag.se/bot"
+      ],
+      "examples": [
+        "OppnabolagBot/0.1 (+https://oppnabolag.se/bot;)",
+        "OppnabolagBot-Audio/0.1 (+https://oppnabolag.se/bot;)"
       ]
     },
     {
@@ -1084,6 +1350,16 @@
       ]
     },
     {
+      "name": "parc",
+      "pattern": "^parc/\\d",
+      "examples": [
+        "parc/0.1.0"
+      ],
+      "urls": [
+        "https://github.com/luntta/parc"
+      ]
+    },
+    {
       "name": "PetalBot",
       "pattern": "PetalBot",
       "description": "PetalBot is an automatic program of the Petal search engine.",
@@ -1113,6 +1389,18 @@
       ]
     },
     {
+      "name": "PlayNext",
+      "pattern": " PlayNext/|^playnext-",
+      "examples": [
+        "Mozilla/5.0 (compatible; PlayNext/1.0; +https://playnext.fm)",
+        "playnext-tier1/0.1",
+        "playnext-t3/0.1"
+      ],
+      "urls": [
+        "https://playnext.fm"
+      ]
+    },
+    {
       "name": "PodBean Feed Reader",
       "pattern": "^PodbeanFeedReader",
       "examples": [
@@ -1127,8 +1415,18 @@
       ]
     },
     {
+      "name": "Podbean Podcast Service",
+      "pattern": "^Podbean Podcast Service",
+      "examples": [
+        "Podbean Podcast Service"
+      ],
+      "urls": [
+        "https://www.podbean.com/"
+      ]
+    },
+    {
       "name": "Podcastindex.org",
-      "pattern": "^Podcastindex\\.org/|\\(PodcastIndex\\.org\\)|PodcastIndexManager/",
+      "pattern": "^Podcastindex\\.org/|\\(PodcastIndex\\.org\\)|PodcastIndexManager/|^PodcastIndex Classifier/",
       "svg": "podcast-index.svg",
       "urls": [
         "https://podcastindex.org/"
@@ -1136,7 +1434,8 @@
       "examples": [
         "Podcastindex.org/v0.3.3 (Aggrivate)",
         "Aggrivator (PodcastIndex.org)/v0.1.7",
-        "PodcastIndexManager/1.0"
+        "PodcastIndexManager/1.0",
+        "PodcastIndex Classifier/1.0"
       ]
     },
     {
@@ -1171,10 +1470,32 @@
       ]
     },
     {
-      "name": "Podcast Downloader",
-      "pattern": "^podcast-downloader$",
+      "name": "PodcastArchiver",
+      "pattern": "^PodcastArchiver/",
       "examples": [
-        "podcast-downloader"
+        "PodcastArchiver/1.0"
+      ]
+    },
+    {
+      "name": "Podcast Downloader",
+      "pattern": "^podcast-downloader$| podcast-downloader/",
+      "examples": [
+        "podcast-downloader",
+        "Mozilla/5.0 (compatible; podcast-downloader/1.0)"
+      ]
+    },
+    {
+      "name": "PodcastFeedAnalyzer",
+      "pattern": "^PodcastFeedAnalyzer/",
+      "examples": [
+        "PodcastFeedAnalyzer/1.0"
+      ]
+    },
+    {
+      "name": "PodcastFetcher",
+      "pattern": "^Mozilla.* PodcastFetcher/",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodcastFetcher/1.0)"
       ]
     },
     {
@@ -1182,6 +1503,13 @@
       "pattern": "^podcast-go-audio-downloader/",
       "examples": [
         "podcast-go-audio-downloader/2.0"
+      ]
+    },
+    {
+      "name": "PodcastIndexer",
+      "pattern": " PodcastIndexer/\\d",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodcastIndexer/1.0)"
       ]
     },
     {
@@ -1217,6 +1545,17 @@
       ]
     },
     {
+      "name": "PodcastDL",
+      "pattern": "^(PodcastDL|podcastdl)/",
+      "examples": [
+        "PodcastDL/1.0 (+https://github.com/podcast-dl)",
+        "podcastdl/1.0 (+https://github.com/)"
+      ],
+      "urls": [
+        "https://github.com/podcast-dl"
+      ]
+    },
+    {
       "name": "Podchaser Parser",
       "pattern": "^PodchaserParser/",
       "examples": [
@@ -1238,10 +1577,74 @@
       ]
     },
     {
+      "name": "podcast-download-worker",
+      "pattern": "^podcast-download-worker/",
+      "examples": [
+        "podcast-download-worker/1.0"
+      ]
+    },
+    {
+      "name": "podcast-grabber",
+      "pattern": "^podcast-grabber/",
+      "examples": [
+        "podcast-grabber/0.1.0"
+      ]
+    },
+    {
+      "name": "PodcastPipeline",
+      "pattern": "^PodcastPipeline/",
+      "examples": [
+        "PodcastPipeline/1.0"
+      ]
+    },
+    {
+      "name": "podcast-preflight",
+      "pattern": "^podcast-preflight/",
+      "examples": [
+        "podcast-preflight/1.0"
+      ]
+    },
+    {
+      "name": "podcast-renamer",
+      "pattern": " podcast-renamer/",
+      "examples": [
+        "Mozilla/5.0 (compatible; podcast-renamer/1.0)"
+      ]
+    },
+    {
       "name": "podcast-shard-downloader",
       "pattern": "^podcast-shard-downloader/",
       "examples": [
         "podcast-shard-downloader/1.0"
+      ]
+    },
+    {
+      "name": "podcast-stt",
+      "pattern": "^podcast-stt/",
+      "examples": [
+        "podcast-stt/1.0"
+      ]
+    },
+    {
+      "name": "PodcastTranscriber",
+      "pattern": "PodcastTranscriber/",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodcastTranscriber/1.0)",
+        "PodcastTranscriber/1.0"
+      ]
+    },
+    {
+      "name": "PodcastWorker",
+      "pattern": "^PodcastWorker/",
+      "examples": [
+        "PodcastWorker/1.0"
+      ]
+    },
+    {
+      "name": "podcasts ai local transcribe",
+      "pattern": "^podcasts-ai-local-transcribe/",
+      "examples": [
+        "podcasts-ai-local-transcribe/1.0"
       ]
     },
     {
@@ -1311,6 +1714,16 @@
       ]
     },
     {
+      "name": "Podget",
+      "pattern": "^Podget$",
+      "urls": [
+        "https://github.com/dvehrs/podget"
+      ],
+      "examples": [
+        "Podget"
+      ]
+    },
+    {
       "name": "Podgrab",
       "pattern": "^Podgrab$",
       "description": "A self-hosted podcast manager to download episodes as soon as they become live",
@@ -1357,6 +1770,16 @@
       ]
     },
     {
+      "name": "PodmixBot",
+      "pattern": "^PodmixBot/",
+      "urls": [
+        "https://podmix.tibero.ai"
+      ],
+      "examples": [
+        "PodmixBot/0.1 (+https://podmix.tibero.ai; contact: diego@tibero.ai)"
+      ]
+    },
+    {
       "name": "Podmon Bot",
       "pattern": "^Podmonbot/",
       "urls": [
@@ -1364,6 +1787,19 @@
       ],
       "examples": [
         "Podmonbot/1.0"
+      ]
+    },
+    {
+      "name": "Podnado",
+      "pattern": "^Podnado/\\d+\\.\\d+",
+      "description": "Podcast indexer",
+      "urls": [
+        "https://bot.podnado.com/"
+      ],
+      "comments": "Fetches RSS feeds and audio enclosures only, never HTML or assets.",
+      "examples": [
+        "Podnado/1.0 Podcast Indexer (feed-id=12; +https://bot.podnado.com/)",
+        "Podnado/1.0 Podcast Indexer (+https://bot.podnado.com/)"
       ]
     },
     {
@@ -1414,6 +1850,13 @@
       ]
     },
     {
+      "name": "pods3-backfill",
+      "pattern": "pods3-backfill",
+      "examples": [
+        "Mozilla/5.0 pods3-backfill/1.0"
+      ]
+    },
+    {
       "name": "Podscan Bot",
       "pattern": "^PodscanBot/",
       "examples": [
@@ -1430,6 +1873,17 @@
       "examples": [
         "Adswizz-podscribe/1.0",
         "Podscribe/1.1"
+      ]
+    },
+    {
+      "name": "PodSearcher",
+      "pattern": "^PodSearcher/| PodSearcher/",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodSearcher/1.0; +https://podsearcher.com)",
+        "PodSearcher/1.0"
+      ],
+      "urls": [
+        "https://podsearcher.com"
       ]
     },
     {
@@ -1490,13 +1944,22 @@
         "Podwatch-Pro Crawler"
       ],
       "description": "PodwatchPro is a podcast analytics software. This user agent is for crawling podcast data.",
-      "urls": [ "https://www.agma-mmc.de/media-analyse/ma-podcast" ]
+      "urls": [
+        "https://www.agma-mmc.de/media-analyse/ma-podcast"
+      ]
     },
     {
       "name": "private-podcast-puller",
       "pattern": "private-podcast-puller",
       "examples": [
         "private-podcast-puller/0.1"
+      ]
+    },
+    {
+      "name": "public-episode-downloader",
+      "pattern": "public-episode-downloader",
+      "examples": [
+        "Mozilla/5.0 (compatible; public-episode-downloader/1.0)"
       ]
     },
     {
@@ -1557,6 +2020,13 @@
       ]
     },
     {
+      "name": "Reference Finder Podcast Downloader",
+      "pattern": "Reference Finder Podcast Downloader",
+      "examples": [
+        "Mozilla/5.0 (Reference Finder Podcast Downloader)"
+      ]
+    },
+    {
       "name": "Rephonic",
       "pattern": "^Rephonic/\\d",
       "urls": [
@@ -1612,6 +2082,13 @@
     {
       "name": "RSSRadio",
       "pattern": "^RSSRadio \\("
+    },
+    {
+      "name": "Rstudio",
+      "pattern": "^RStudio Desktop",
+      "examples": [
+        "RStudio Desktop (2025.5.1.513); R (4.5.1 aarch64-apple-darwin20 aarch64 darwin20)"
+      ]
     },
     {
       "name": "Ruby Mechanize",
@@ -1704,6 +2181,16 @@
       ]
     },
     {
+      "name": "slopsearch",
+      "pattern": "^slopsearch/",
+      "examples": [
+        "slopsearch/1.0 (+https://search.sloppy.at/about)"
+      ],
+      "urls": [
+        "https://search.sloppy.at/about"
+      ]
+    },
+    {
       "name": "Snapchat Bot",
       "pattern": "://developers\\.snap\\.com/robots",
       "examples": [
@@ -1747,11 +2234,36 @@
       ]
     },
     {
+      "name": "Spool feed poller",
+      "pattern": "^PodCatcher/\\d.*Spool feed poller",
+      "description": "Server that polls RSS feeds to send new-episode notifications to the Spool app",
+      "urls": [
+        "https://spoolcast.ca"
+      ],
+      "examples": [
+        "PodCatcher/1.0 (+Spool feed poller)"
+      ]
+    },
+    {
+      "name": "SPoRC Research Downloader",
+      "pattern": "^SPoRC-Research-Downloader/",
+      "examples": [
+        "SPoRC-Research-Downloader/1.0"
+      ]
+    },
+    {
       "name": "Spotify cache service",
       "pattern": "^Spotify/1\\.0$",
       "comments": "This useragent, currently simply Spotify/1.0, is used when retrieving the RSS and audio for Spotify's catalogue. It isn't used for passthru.",
       "examples": [
         "Spotify/1.0"
+      ]
+    },
+    {
+      "name": "spotify-rss-whisper-pipeline",
+      "pattern": "^spotify-rss-whisper-pipeline/",
+      "examples": [
+        "spotify-rss-whisper-pipeline/0.1 (Windows local batch downloader/transcriber)"
       ]
     },
     {
@@ -1766,11 +2278,25 @@
       ]
     },
     {
+      "name": "SummarizeCasts",
+      "pattern": "SummarizeCasts-Worker/",
+      "examples": [
+        "Mozilla/5.0 (compatible; SummarizeCasts-Worker/1.0)"
+      ]
+    },
+    {
       "name": "SupportingCast",
       "pattern": "^SupportingCast(/.*)?$",
       "examples": [
         "SupportingCast/1.0",
         "SupportingCast"
+      ]
+    },
+    {
+      "name": "swiperight-pipeline",
+      "pattern": "^swiperight-pipeline/",
+      "examples": [
+        "swiperight-pipeline/0.1"
       ]
     },
     {
@@ -1781,6 +2307,19 @@
       ],
       "examples": [
         "Taddy Podcast API (https://taddy.org/developers)"
+      ]
+    },
+    {
+      "name": "The Podcast App (Magnolia Apps) server",
+      "pattern": "TPA-Server/\\d",
+      "description": "Server-side fetcher for The Podcast App by Magnolia Apps: retrieves RSS feeds and enclosure metadata for the app's backend. The user-facing app is the separate \"The Podcast App (Magnolia Apps)\" entry (TPA/, TPA-Wear/).",
+      "urls": [
+        "https://thepodcastapp.dev"
+      ],
+      "comments": "Developer-submitted. The Mozilla/5.0-prefixed variant is used only for media/enclosure hosts that reject app-specific user agents; both carry the TPA-Server/ token.",
+      "examples": [
+        "TPA-Server/1.0 (+https://thepodcastapp.dev)",
+        "Mozilla/5.0 (compatible; TPA-Server/1.0; +https://thepodcastapp.dev)"
       ]
     },
     {
@@ -1830,6 +2369,13 @@
       ]
     },
     {
+      "name": "truename podcast transcriber",
+      "pattern": "^truename-podcast-transcriber/",
+      "examples": [
+        "truename-podcast-transcriber/1.0"
+      ]
+    },
+    {
       "name": "TurnitinBot",
       "pattern": "^Turnitin \\(",
       "urls": [
@@ -1859,6 +2405,13 @@
       "pattern": "^UCast/",
       "examples": [
         "UCast/1.0 Podcast Sync (1 subscribers; feed-id=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMDg0OTQucnNzEAEBAD32-0242-42AC-8583-21E9BAD8C544; +http://www.ucastapp.com/)"
+      ]
+    },
+    {
+      "name": "UniversalFeedParser",
+      "pattern": "^UniversalFeedParser/",
+      "examples": [
+        "UniversalFeedParser/3.3 +http://feedparser.org/"
       ]
     },
     {
@@ -1904,6 +2457,13 @@
       ]
     },
     {
+      "name": "Vercel image optimization",
+      "pattern": "^vercel-image-optimization/",
+      "examples": [
+        "vercel-image-optimization/1.0"
+      ]
+    },
+    {
       "name": "Vercel screenshot",
       "pattern": "^vercel-screenshot/",
       "examples": [
@@ -1940,6 +2500,13 @@
       "pattern": "^weborama-fetcher",
       "examples": [
         "weborama-fetcher (+http://www.weborama.com)"
+      ]
+    },
+    {
+      "name": "WhisperProxy",
+      "pattern": " WhisperProxy/",
+      "examples": [
+        "Mozilla/5.0 (compatible; WhisperProxy/1.0)"
       ]
     },
     {
@@ -1989,6 +2556,14 @@
     {
       "name": "YandexBot",
       "pattern": "YandexBot/"
+    },
+    {
+      "name": "yushi-podcast-catalog",
+      "pattern": "^yushi-podcast-catalog/",
+      "examples": [
+        "yushi-podcast-catalog/1.0 (+apple-search-api-policy-first)"
+      ],
+      "comments": "Coming from Microsoft ips"
     },
     {
       "name": "Zapier",

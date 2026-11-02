@@ -13,6 +13,10 @@
       "pattern": "^acast-tester/"
     },
     {
+      "name": "AccountingPodcastDownloader",
+      "pattern": "AccountingPodcastDownloader/"
+    },
+    {
       "name": "Adswizz",
       "pattern": "^AIS VirtualListener"
     },
@@ -81,6 +85,10 @@
       "pattern": "^atheerfm/"
     },
     {
+      "name": "atlas-transcribe",
+      "pattern": "^atlas-transcribe/"
+    },
+    {
       "name": "Audacy Creator Lab Hosting",
       "pattern": "^Audacy Creator Lab Hosting/"
     },
@@ -95,6 +103,10 @@
     {
       "name": "Audiomack",
       "pattern": "^Audiomack Podcast Processor/"
+    },
+    {
+      "name": "audio-sanity-check",
+      "pattern": "^audio-sanity-check/"
     },
     {
       "name": "Audioscrape",
@@ -127,6 +139,10 @@
     {
       "name": "Beacon Podcast Sync",
       "pattern": "^Beacon/\\d"
+    },
+    {
+      "name": "Beehiiv podcast importer",
+      "pattern": "^beehiiv-podcast-importer/"
     },
     {
       "name": "British Library",
@@ -173,8 +189,20 @@
       "pattern": "^CastFeedValidator/"
     },
     {
+      "name": "castget",
+      "pattern": "^castget |^castget$"
+    },
+    {
+      "name": "Castnews",
+      "pattern": "^Castnews-Topiker/"
+    },
+    {
       "name": "Castopod",
       "pattern": "Castopod/\\d"
+    },
+    {
+      "name": "Castro automated actions",
+      "pattern": "^Tentacles, Like iTunes$"
     },
     {
       "name": "Ceramic Terracotta Crawler",
@@ -185,12 +213,24 @@
       "pattern": "^Trackable/"
     },
     {
+      "name": "Christianity at Scale Bot",
+      "pattern": "^ChristianityAtScaleBot/"
+    },
+    {
       "name": "Clark-Crawler, unknown",
       "pattern": "^clark-crawler2"
     },
     {
       "name": "Claudebot",
       "pattern": "ClaudeBot/"
+    },
+    {
+      "name": "clipgenie-service-worker",
+      "pattern": "^clipgenie-service-worker$"
+    },
+    {
+      "name": "CloudConvert",
+      "pattern": "^CloudConvert"
     },
     {
       "name": "Cloudflare SSL detector",
@@ -201,8 +241,20 @@
       "pattern": "https://www\\.comscore\\.com"
     },
     {
+      "name": "ContentFlow",
+      "pattern": "^ContentFlow/"
+    },
+    {
+      "name": "ConduitMCP",
+      "pattern": "^ConduitMCP/"
+    },
+    {
       "name": "Critical Mention",
       "pattern": "^Podcast-CriticalMention/"
+    },
+    {
+      "name": "Crowli",
+      "pattern": " Crowli/"
     },
     {
       "name": "curl",
@@ -221,6 +273,10 @@
       "pattern": "Dataprovider\\.com"
     },
     {
+      "name": "data-pipeline-downloader",
+      "pattern": "data-pipeline-downloader/"
+    },
+    {
       "name": "Daum",
       "pattern": "http://cs\\.daum\\.net"
     },
@@ -229,8 +285,16 @@
       "pattern": "^DeepCast/\\d.*Sync"
     },
     {
+      "name": "Deepgram",
+      "pattern": "^Deepgram$"
+    },
+    {
       "name": "Deezer Podcasters",
       "pattern": "^Deezer Podcasters/1\\.0"
+    },
+    {
+      "name": "DIFTCL-AnchorAudit",
+      "pattern": "^DIFTCL-AnchorAudit/"
     },
     {
       "name": "Digg",
@@ -251,6 +315,10 @@
     {
       "name": "DuckDuckBot",
       "pattern": "DuckDuckBot"
+    },
+    {
+      "name": "DutchPodcastScraper",
+      "pattern": "^DutchPodcastScraper/"
     },
     {
       "name": "F-Secure Riddler",
@@ -305,12 +373,24 @@
       "pattern": "AdsBot-Google|Google-AdWords-Express"
     },
     {
+      "name": "Google Gemini",
+      "pattern": "^GoogleAgent-URLContext"
+    },
+    {
       "name": "Google Podcasts Manager",
       "pattern": "Google-Podcast"
     },
     {
       "name": "Googlebot",
-      "pattern": "Googlebot/|Googlebot-Video/|Googlebot-Image/|^Feed[fF]etcher-Google|google-xrawler|^Googlebot-News|^Google-Safety$"
+      "pattern": "Googlebot/|Googlebot-Video/|Googlebot-Image/|^Feed[fF]etcher-Google|google-xrawler|^Googlebot-News|^Google-Safety$|^GoogleOther-Video/\\d"
+    },
+    {
+      "name": "gpt-in-mind-podcasts",
+      "pattern": "^gpt-in-mind-podcasts"
+    },
+    {
+      "name": "GuestPrimer",
+      "pattern": "^GuestPrimer/"
     },
     {
       "name": "Gumball",
@@ -357,6 +437,14 @@
       "pattern": "^Jamit/1\\.0$"
     },
     {
+      "name": "kidou-downloader",
+      "pattern": " kidou-downloader/"
+    },
+    {
+      "name": "KutPod Importer",
+      "pattern": "^KutPod-Importer/"
+    },
+    {
       "name": "l'Institut national de l'audiovisuel",
       "pattern": "INA dlweb"
     },
@@ -377,6 +465,10 @@
       "pattern": "^LinkPreview/\\d"
     },
     {
+      "name": "LinuxGetUrl",
+      "pattern": "^LinuxGetUrl/\\d"
+    },
+    {
       "name": "Livelap Crawler",
       "pattern": "LivelapBot"
     },
@@ -385,12 +477,24 @@
       "pattern": "^ListenNotes/3\\.0 \\("
     },
     {
+      "name": "llmfeed",
+      "pattern": "^llmfeed/"
+    },
+    {
       "name": "LTX71",
       "pattern": "^ltx71 "
     },
     {
+      "name": "lychee",
+      "pattern": "^lychee/\\d"
+    },
+    {
       "name": "MacOS share menu",
       "pattern": "^ShareSheetUI/"
+    },
+    {
+      "name": "MagellanAI",
+      "pattern": "^MagellanAI/"
     },
     {
       "name": "magic-podcast-downloader",
@@ -409,8 +513,16 @@
       "pattern": "^Misskey/|^CherryPick/|^Iceshrimp/|^gotosocial/"
     },
     {
+      "name": "Meow Podcast transcription bot",
+      "pattern": "^MeowPodcastBot/"
+    },
+    {
       "name": "Metacast Crawler",
       "pattern": "^Metacast/.* Crawler"
+    },
+    {
+      "name": "Metapodcast",
+      "pattern": "^MetapodcastV2/"
     },
     {
       "name": "Microsoft Bingbot",
@@ -465,6 +577,10 @@
       "pattern": "^NovaStreamLive/.*Import"
     },
     {
+      "name": "od·tune",
+      "pattern": "^odtune/"
+    },
+    {
       "name": "OgScrper",
       "pattern": "OgScrper"
     },
@@ -477,12 +593,20 @@
       "pattern": "^OmnyStudio/\\d"
     },
     {
+      "name": "Once Upon a Pod feed fetcher",
+      "pattern": "^OnceUponAPod/[\\d.]+ Feed Fetcher"
+    },
+    {
       "name": "OP3 Fetcher",
       "pattern": "^op3-fetcher/"
     },
     {
       "name": "OpenAI GPTBot",
       "pattern": "GPTBot/"
+    },
+    {
+      "name": "OppnabolagBot",
+      "pattern": "^OppnabolagBot"
     },
     {
       "name": "Overcast feed parser",
@@ -505,6 +629,10 @@
       "pattern": "PaperLiBot/"
     },
     {
+      "name": "parc",
+      "pattern": "^parc/\\d"
+    },
+    {
       "name": "PetalBot",
       "pattern": "PetalBot"
     },
@@ -521,6 +649,10 @@
       "pattern": "PlayerFM/.* Podcast Sync"
     },
     {
+      "name": "PlayNext",
+      "pattern": " PlayNext/|^playnext-"
+    },
+    {
       "name": "PodBean Feed Reader",
       "pattern": "^PodbeanFeedReader"
     },
@@ -529,8 +661,12 @@
       "pattern": "^Podbean Importer"
     },
     {
+      "name": "Podbean Podcast Service",
+      "pattern": "^Podbean Podcast Service"
+    },
+    {
       "name": "Podcastindex.org",
-      "pattern": "^Podcastindex\\.org/|\\(PodcastIndex\\.org\\)|PodcastIndexManager/"
+      "pattern": "^Podcastindex\\.org/|\\(PodcastIndex\\.org\\)|PodcastIndexManager/|^PodcastIndex Classifier/"
     },
     {
       "name": "Podcast de facto Standard",
@@ -545,12 +681,28 @@
       "pattern": "^podcast-archiver/v\\d"
     },
     {
+      "name": "PodcastArchiver",
+      "pattern": "^PodcastArchiver/"
+    },
+    {
       "name": "Podcast Downloader",
-      "pattern": "^podcast-downloader$"
+      "pattern": "^podcast-downloader$| podcast-downloader/"
+    },
+    {
+      "name": "PodcastFeedAnalyzer",
+      "pattern": "^PodcastFeedAnalyzer/"
+    },
+    {
+      "name": "PodcastFetcher",
+      "pattern": "^Mozilla.* PodcastFetcher/"
     },
     {
       "name": "Podcast Go Audio Downloader",
       "pattern": "^podcast-go-audio-downloader/"
+    },
+    {
+      "name": "PodcastIndexer",
+      "pattern": " PodcastIndexer/\\d"
     },
     {
       "name": "PodcastTranslator",
@@ -569,6 +721,10 @@
       "pattern": "^Podcatcher Bot 1.0"
     },
     {
+      "name": "PodcastDL",
+      "pattern": "^(PodcastDL|podcastdl)/"
+    },
+    {
       "name": "Podchaser Parser",
       "pattern": "^PodchaserParser/"
     },
@@ -581,8 +737,44 @@
       "pattern": " PodcastDownloader/"
     },
     {
+      "name": "podcast-download-worker",
+      "pattern": "^podcast-download-worker/"
+    },
+    {
+      "name": "podcast-grabber",
+      "pattern": "^podcast-grabber/"
+    },
+    {
+      "name": "PodcastPipeline",
+      "pattern": "^PodcastPipeline/"
+    },
+    {
+      "name": "podcast-preflight",
+      "pattern": "^podcast-preflight/"
+    },
+    {
+      "name": "podcast-renamer",
+      "pattern": " podcast-renamer/"
+    },
+    {
       "name": "podcast-shard-downloader",
       "pattern": "^podcast-shard-downloader/"
+    },
+    {
+      "name": "podcast-stt",
+      "pattern": "^podcast-stt/"
+    },
+    {
+      "name": "PodcastTranscriber",
+      "pattern": "PodcastTranscriber/"
+    },
+    {
+      "name": "PodcastWorker",
+      "pattern": "^PodcastWorker/"
+    },
+    {
+      "name": "podcasts ai local transcribe",
+      "pattern": "^podcasts-ai-local-transcribe/"
     },
     {
       "name": "PodCloud",
@@ -609,6 +801,10 @@
       "pattern": "podfollowbot/"
     },
     {
+      "name": "Podget",
+      "pattern": "^Podget$"
+    },
+    {
       "name": "Podgrab",
       "pattern": "^Podgrab$"
     },
@@ -625,8 +821,16 @@
       "pattern": "^PodlexiconDownloader"
     },
     {
+      "name": "PodmixBot",
+      "pattern": "^PodmixBot/"
+    },
+    {
       "name": "Podmon Bot",
       "pattern": "^Podmonbot/"
+    },
+    {
+      "name": "Podnado",
+      "pattern": "^Podnado/\\d+\\.\\d+"
     },
     {
       "name": "Podnews",
@@ -653,12 +857,20 @@
       "pattern": "^pdrl\\.fm "
     },
     {
+      "name": "pods3-backfill",
+      "pattern": "pods3-backfill"
+    },
+    {
       "name": "Podscan Bot",
       "pattern": "^PodscanBot/"
     },
     {
       "name": "Podscribe",
       "pattern": "(^Adswizz-podscribe/|^Podscribe/)"
+    },
+    {
+      "name": "PodSearcher",
+      "pattern": "^PodSearcher/| PodSearcher/"
     },
     {
       "name": "PodUptime",
@@ -693,6 +905,10 @@
       "pattern": "private-podcast-puller"
     },
     {
+      "name": "public-episode-downloader",
+      "pattern": "public-episode-downloader"
+    },
+    {
       "name": "Puppeteer",
       "pattern": " HeadlessChrome/\\d"
     },
@@ -721,6 +937,10 @@
       "pattern": "RedCircle"
     },
     {
+      "name": "Reference Finder Podcast Downloader",
+      "pattern": "Reference Finder Podcast Downloader"
+    },
+    {
       "name": "Rephonic",
       "pattern": "^Rephonic/\\d"
     },
@@ -747,6 +967,10 @@
     {
       "name": "RSSRadio",
       "pattern": "^RSSRadio \\("
+    },
+    {
+      "name": "Rstudio",
+      "pattern": "^RStudio Desktop"
     },
     {
       "name": "Ruby Mechanize",
@@ -793,6 +1017,10 @@
       "pattern": "^Slackbot 1\\.0"
     },
     {
+      "name": "slopsearch",
+      "pattern": "^slopsearch/"
+    },
+    {
       "name": "Snapchat Bot",
       "pattern": "://developers\\.snap\\.com/robots"
     },
@@ -813,8 +1041,20 @@
       "pattern": "speechischeap\\.com"
     },
     {
+      "name": "Spool feed poller",
+      "pattern": "^PodCatcher/\\d.*Spool feed poller"
+    },
+    {
+      "name": "SPoRC Research Downloader",
+      "pattern": "^SPoRC-Research-Downloader/"
+    },
+    {
       "name": "Spotify cache service",
       "pattern": "^Spotify/1\\.0$"
+    },
+    {
+      "name": "spotify-rss-whisper-pipeline",
+      "pattern": "^spotify-rss-whisper-pipeline/"
     },
     {
       "name": "Stitcher Bot",
@@ -825,12 +1065,24 @@
       "pattern": "^SubstackContentFetch/"
     },
     {
+      "name": "SummarizeCasts",
+      "pattern": "SummarizeCasts-Worker/"
+    },
+    {
       "name": "SupportingCast",
       "pattern": "^SupportingCast(/.*)?$"
     },
     {
+      "name": "swiperight-pipeline",
+      "pattern": "^swiperight-pipeline/"
+    },
+    {
       "name": "Taddy Podcast API",
       "pattern": "^Taddy Podcast API "
+    },
+    {
+      "name": "The Podcast App (Magnolia Apps) server",
+      "pattern": "TPA-Server/\\d"
     },
     {
       "name": "Timpi search crawler",
@@ -857,6 +1109,10 @@
       "pattern": "^Triton Digital Podcast Sync$"
     },
     {
+      "name": "truename podcast transcriber",
+      "pattern": "^truename-podcast-transcriber/"
+    },
+    {
       "name": "TurnitinBot",
       "pattern": "^Turnitin \\("
     },
@@ -875,6 +1131,10 @@
     {
       "name": "UCast",
       "pattern": "^UCast/"
+    },
+    {
+      "name": "UniversalFeedParser",
+      "pattern": "^UniversalFeedParser/"
     },
     {
       "name": "UptimeRobot",
@@ -897,6 +1157,10 @@
       "pattern": "TTD-Content"
     },
     {
+      "name": "Vercel image optimization",
+      "pattern": "^vercel-image-optimization/"
+    },
+    {
       "name": "Vercel screenshot",
       "pattern": "^vercel-screenshot/"
     },
@@ -915,6 +1179,10 @@
     {
       "name": "weborama",
       "pattern": "^weborama-fetcher"
+    },
+    {
+      "name": "WhisperProxy",
+      "pattern": " WhisperProxy/"
     },
     {
       "name": "Windows Crawler",
@@ -943,6 +1211,10 @@
     {
       "name": "YandexBot",
       "pattern": "YandexBot/"
+    },
+    {
+      "name": "yushi-podcast-catalog",
+      "pattern": "^yushi-podcast-catalog/"
     },
     {
       "name": "Zapier",

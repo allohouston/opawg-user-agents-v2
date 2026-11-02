@@ -19,6 +19,12 @@
       ]
     },
     {
+      "name": "AccountingPodcastDownloader",
+      "examples": [
+        "Mozilla/5.0 AccountingPodcastDownloader/1.0"
+      ]
+    },
+    {
       "name": "Adswizz",
       "examples": [
         "AIS VirtualListener"
@@ -114,6 +120,12 @@
       ]
     },
     {
+      "name": "atlas-transcribe",
+      "examples": [
+        "atlas-transcribe/1.0"
+      ]
+    },
+    {
       "name": "Audacy Creator Lab Hosting",
       "examples": [
         "Audacy Creator Lab Hosting/1.0"
@@ -135,6 +147,12 @@
       "name": "Audiomack",
       "examples": [
         "Audiomack Podcast Processor/1.0 (https://audiomack.com/)"
+      ]
+    },
+    {
+      "name": "audio-sanity-check",
+      "examples": [
+        "audio-sanity-check/1.0"
       ]
     },
     {
@@ -177,6 +195,12 @@
       "name": "Beacon Podcast Sync",
       "examples": [
         "Beacon/1.0 Podcast Sync +https://getbeacons.com/"
+      ]
+    },
+    {
+      "name": "Beehiiv podcast importer",
+      "examples": [
+        "beehiiv-podcast-importer/1.0"
       ]
     },
     {
@@ -247,10 +271,29 @@
       ]
     },
     {
+      "name": "castget",
+      "examples": [
+        "castget 1.2.4 (castget rss enclosure downloader)",
+        "castget"
+      ]
+    },
+    {
+      "name": "Castnews",
+      "examples": [
+        "Castnews-Topiker/1.0 (+https://index.castnews.com.br)"
+      ]
+    },
+    {
       "name": "Castopod",
       "examples": [
         "Castopod/1.0",
         "Castopod/1.1.2"
+      ]
+    },
+    {
+      "name": "Castro automated actions",
+      "examples": [
+        "Tentacles, Like iTunes"
       ]
     },
     {
@@ -260,9 +303,27 @@
       ]
     },
     {
+      "name": "Christianity at Scale Bot",
+      "examples": [
+        "ChristianityAtScaleBot/1.0 (+https://christianityatscale.com/bot; bot@christianityatscale.com)"
+      ]
+    },
+    {
       "name": "Claudebot",
       "examples": [
         "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+      ]
+    },
+    {
+      "name": "clipgenie-service-worker",
+      "examples": [
+        "clipgenie-service-worker"
+      ]
+    },
+    {
+      "name": "CloudConvert",
+      "examples": [
+        "CloudConvert"
       ]
     },
     {
@@ -278,9 +339,27 @@
       ]
     },
     {
+      "name": "ContentFlow",
+      "examples": [
+        "ContentFlow/1.0 (Podcast Audio Downloader)"
+      ]
+    },
+    {
+      "name": "ConduitMCP",
+      "examples": [
+        "ConduitMCP/1.0 (+Lab36)"
+      ]
+    },
+    {
       "name": "Critical Mention",
       "examples": [
         "Podcast-CriticalMention/1.0"
+      ]
+    },
+    {
+      "name": "Crowli",
+      "examples": [
+        "Mozilla/5.0 (compatible; Crowli/1.0; +http://www.miniradioplayer.net/crowli.html)"
       ]
     },
     {
@@ -304,6 +383,12 @@
       ]
     },
     {
+      "name": "data-pipeline-downloader",
+      "examples": [
+        "Mozilla/5.0 (compatible; data-pipeline-downloader/1.0)"
+      ]
+    },
+    {
       "name": "Daum",
       "examples": [
         "Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)"
@@ -313,6 +398,18 @@
       "name": "Deepcast Podcast Sync",
       "examples": [
         "DeepCast/4.3.0 Podcast Sync (+https://deepcast.fm)"
+      ]
+    },
+    {
+      "name": "Deepgram",
+      "examples": [
+        "Deepgram"
+      ]
+    },
+    {
+      "name": "DIFTCL-AnchorAudit",
+      "examples": [
+        "DIFTCL-AnchorAudit/1.0 (+read-only; rate-limited)"
       ]
     },
     {
@@ -338,6 +435,12 @@
       "name": "DuckDuckBot",
       "examples": [
         "Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)"
+      ]
+    },
+    {
+      "name": "DutchPodcastScraper",
+      "examples": [
+        "DutchPodcastScraper/1.0 (research; episode audio collection)"
       ]
     },
     {
@@ -421,6 +524,12 @@
       ]
     },
     {
+      "name": "Google Gemini",
+      "examples": [
+        "GoogleAgent-URLContext"
+      ]
+    },
+    {
       "name": "Googlebot",
       "examples": [
         "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; http://www.google.com/bot.html)",
@@ -429,7 +538,20 @@
         "google-xrawler",
         "Googlebot-News Audio",
         "Google-Safety",
-        "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)"
+        "FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)",
+        "GoogleOther-Video/1.0"
+      ]
+    },
+    {
+      "name": "gpt-in-mind-podcasts",
+      "examples": [
+        "gpt-in-mind-podcasts-v2/0.1 (research)"
+      ]
+    },
+    {
+      "name": "GuestPrimer",
+      "examples": [
+        "GuestPrimer/1.0"
       ]
     },
     {
@@ -503,6 +625,18 @@
       ]
     },
     {
+      "name": "kidou-downloader",
+      "examples": [
+        "Mozilla/5.0 (compatible; kidou-downloader/1.0)"
+      ]
+    },
+    {
+      "name": "KutPod Importer",
+      "examples": [
+        "KutPod-Importer/1.0 (+https://kutpod.io)"
+      ]
+    },
+    {
       "name": "Library and Archives Canada",
       "examples": [
         "Mozilla/5.0 (compatible; LAC_IAHarvester/3.3.0; +https://library-archives.canada.ca/eng/services/government-canada/web-social-media-preservation-program/Pages/web-archive.aspx)"
@@ -527,9 +661,21 @@
       ]
     },
     {
+      "name": "LinuxGetUrl",
+      "examples": [
+        "LinuxGetUrl/2.0 closedaiengine@umich.edu (Linux)"
+      ]
+    },
+    {
       "name": "ListenNotes",
       "examples": [
         "ListenNotes/3.0 (id=c1ef144e30174bf6ba1fedf9174ed908; +https://www.listennotes.com/about/)"
+      ]
+    },
+    {
+      "name": "llmfeed",
+      "examples": [
+        "llmfeed/2.0 (+https://github.com/llmfeed)"
       ]
     },
     {
@@ -539,10 +685,23 @@
       ]
     },
     {
+      "name": "lychee",
+      "examples": [
+        "lychee/0.24.2"
+      ]
+    },
+    {
       "name": "MacOS share menu",
       "examples": [
         "ShareSheetUI/1 CFNetwork/1399.4 Darwin/22.1.0",
         "ShareSheetUI/1 CFNetwork/1474 Darwin/23.0.0"
+      ]
+    },
+    {
+      "name": "MagellanAI",
+      "examples": [
+        "MagellanAI/1.0.4270",
+        "MagellanAI/1.0.4285"
       ]
     },
     {
@@ -576,9 +735,21 @@
       ]
     },
     {
+      "name": "Meow Podcast transcription bot",
+      "examples": [
+        "MeowPodcastBot/1.0 (+https://meowpodcast.co/bot)"
+      ]
+    },
+    {
       "name": "Metacast Crawler",
       "examples": [
         "Metacast/1.0 Crawler +https://metacast.app"
+      ]
+    },
+    {
+      "name": "Metapodcast",
+      "examples": [
+        "MetapodcastV2/1.0"
       ]
     },
     {
@@ -659,6 +830,13 @@
       ]
     },
     {
+      "name": "od·tune",
+      "examples": [
+        "odtune/0.0.0-dev (+https://odtune.com/about; podcasts@odtune.com)",
+        "odtune/cd932c5 (+https://odtune.com/about; podcasts@odtune.com)"
+      ]
+    },
+    {
       "name": "OgScrper",
       "examples": [
         "OgScrper"
@@ -668,6 +846,12 @@
       "name": "OmniStudio",
       "examples": [
         "OmnyStudio/1.0"
+      ]
+    },
+    {
+      "name": "Once Upon a Pod feed fetcher",
+      "examples": [
+        "OnceUponAPod/1.0 Feed Fetcher (+https://www.onceuponapod.com)"
       ]
     },
     {
@@ -681,6 +865,13 @@
       "examples": [
         "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)",
         "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)"
+      ]
+    },
+    {
+      "name": "OppnabolagBot",
+      "examples": [
+        "OppnabolagBot/0.1 (+https://oppnabolag.se/bot;)",
+        "OppnabolagBot-Audio/0.1 (+https://oppnabolag.se/bot;)"
       ]
     },
     {
@@ -710,6 +901,12 @@
       ]
     },
     {
+      "name": "parc",
+      "examples": [
+        "parc/0.1.0"
+      ]
+    },
+    {
       "name": "PetalBot",
       "examples": [
         "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot; https://aspiegel.com/petalbot)"
@@ -728,6 +925,14 @@
       ]
     },
     {
+      "name": "PlayNext",
+      "examples": [
+        "Mozilla/5.0 (compatible; PlayNext/1.0; +https://playnext.fm)",
+        "playnext-tier1/0.1",
+        "playnext-t3/0.1"
+      ]
+    },
+    {
       "name": "PodBean Feed Reader",
       "examples": [
         "PodbeanFeedReader/6.0 (Feed Parser; http://www.podbean.com/; Allow like Gecko) Build/20251103053444"
@@ -740,11 +945,18 @@
       ]
     },
     {
+      "name": "Podbean Podcast Service",
+      "examples": [
+        "Podbean Podcast Service"
+      ]
+    },
+    {
       "name": "Podcastindex.org",
       "examples": [
         "Podcastindex.org/v0.3.3 (Aggrivate)",
         "Aggrivator (PodcastIndex.org)/v0.1.7",
-        "PodcastIndexManager/1.0"
+        "PodcastIndexManager/1.0",
+        "PodcastIndex Classifier/1.0"
       ]
     },
     {
@@ -766,15 +978,40 @@
       ]
     },
     {
+      "name": "PodcastArchiver",
+      "examples": [
+        "PodcastArchiver/1.0"
+      ]
+    },
+    {
       "name": "Podcast Downloader",
       "examples": [
-        "podcast-downloader"
+        "podcast-downloader",
+        "Mozilla/5.0 (compatible; podcast-downloader/1.0)"
+      ]
+    },
+    {
+      "name": "PodcastFeedAnalyzer",
+      "examples": [
+        "PodcastFeedAnalyzer/1.0"
+      ]
+    },
+    {
+      "name": "PodcastFetcher",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodcastFetcher/1.0)"
       ]
     },
     {
       "name": "Podcast Go Audio Downloader",
       "examples": [
         "podcast-go-audio-downloader/2.0"
+      ]
+    },
+    {
+      "name": "PodcastIndexer",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodcastIndexer/1.0)"
       ]
     },
     {
@@ -803,6 +1040,13 @@
       ]
     },
     {
+      "name": "PodcastDL",
+      "examples": [
+        "PodcastDL/1.0 (+https://github.com/podcast-dl)",
+        "podcastdl/1.0 (+https://github.com/)"
+      ]
+    },
+    {
       "name": "Podchaser Parser",
       "examples": [
         "PodchaserParser/2.0 (https://podchaser.com)"
@@ -821,9 +1065,64 @@
       ]
     },
     {
+      "name": "podcast-download-worker",
+      "examples": [
+        "podcast-download-worker/1.0"
+      ]
+    },
+    {
+      "name": "podcast-grabber",
+      "examples": [
+        "podcast-grabber/0.1.0"
+      ]
+    },
+    {
+      "name": "PodcastPipeline",
+      "examples": [
+        "PodcastPipeline/1.0"
+      ]
+    },
+    {
+      "name": "podcast-preflight",
+      "examples": [
+        "podcast-preflight/1.0"
+      ]
+    },
+    {
+      "name": "podcast-renamer",
+      "examples": [
+        "Mozilla/5.0 (compatible; podcast-renamer/1.0)"
+      ]
+    },
+    {
       "name": "podcast-shard-downloader",
       "examples": [
         "podcast-shard-downloader/1.0"
+      ]
+    },
+    {
+      "name": "podcast-stt",
+      "examples": [
+        "podcast-stt/1.0"
+      ]
+    },
+    {
+      "name": "PodcastTranscriber",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodcastTranscriber/1.0)",
+        "PodcastTranscriber/1.0"
+      ]
+    },
+    {
+      "name": "PodcastWorker",
+      "examples": [
+        "PodcastWorker/1.0"
+      ]
+    },
+    {
+      "name": "podcasts ai local transcribe",
+      "examples": [
+        "podcasts-ai-local-transcribe/1.0"
       ]
     },
     {
@@ -858,6 +1157,12 @@
       ]
     },
     {
+      "name": "Podget",
+      "examples": [
+        "Podget"
+      ]
+    },
+    {
       "name": "Podgrab",
       "examples": [
         "Podgrab"
@@ -882,9 +1187,22 @@
       ]
     },
     {
+      "name": "PodmixBot",
+      "examples": [
+        "PodmixBot/0.1 (+https://podmix.tibero.ai; contact: diego@tibero.ai)"
+      ]
+    },
+    {
       "name": "Podmon Bot",
       "examples": [
         "Podmonbot/1.0"
+      ]
+    },
+    {
+      "name": "Podnado",
+      "examples": [
+        "Podnado/1.0 Podcast Indexer (feed-id=12; +https://bot.podnado.com/)",
+        "Podnado/1.0 Podcast Indexer (+https://bot.podnado.com/)"
       ]
     },
     {
@@ -912,6 +1230,12 @@
       ]
     },
     {
+      "name": "pods3-backfill",
+      "examples": [
+        "Mozilla/5.0 pods3-backfill/1.0"
+      ]
+    },
+    {
       "name": "Podscan Bot",
       "examples": [
         "PodscanBot/1.1.0 Ubuntu/22.04 (Linux) +https://podscan.fm",
@@ -923,6 +1247,13 @@
       "examples": [
         "Adswizz-podscribe/1.0",
         "Podscribe/1.1"
+      ]
+    },
+    {
+      "name": "PodSearcher",
+      "examples": [
+        "Mozilla/5.0 (compatible; PodSearcher/1.0; +https://podsearcher.com)",
+        "PodSearcher/1.0"
       ]
     },
     {
@@ -970,6 +1301,12 @@
       ]
     },
     {
+      "name": "public-episode-downloader",
+      "examples": [
+        "Mozilla/5.0 (compatible; public-episode-downloader/1.0)"
+      ]
+    },
+    {
       "name": "Puppeteer",
       "examples": [
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/105.0.5173.0 Safari/537.36"
@@ -1007,6 +1344,12 @@
       ]
     },
     {
+      "name": "Reference Finder Podcast Downloader",
+      "examples": [
+        "Mozilla/5.0 (Reference Finder Podcast Downloader)"
+      ]
+    },
+    {
       "name": "Rephonic",
       "examples": [
         "Rephonic/1.0"
@@ -1040,6 +1383,12 @@
       "name": "rssfeedfetcher",
       "examples": [
         "rssfeedfetcher libfetch/2.0"
+      ]
+    },
+    {
+      "name": "Rstudio",
+      "examples": [
+        "RStudio Desktop (2025.5.1.513); R (4.5.1 aarch64-apple-darwin20 aarch64 darwin20)"
       ]
     },
     {
@@ -1112,6 +1461,12 @@
       ]
     },
     {
+      "name": "slopsearch",
+      "examples": [
+        "slopsearch/1.0 (+https://search.sloppy.at/about)"
+      ]
+    },
+    {
       "name": "Snapchat Bot",
       "examples": [
         "Snap URL Preview Service; bot; snapchat; https://developers.snap.com/robots"
@@ -1137,15 +1492,39 @@
       ]
     },
     {
+      "name": "Spool feed poller",
+      "examples": [
+        "PodCatcher/1.0 (+Spool feed poller)"
+      ]
+    },
+    {
+      "name": "SPoRC Research Downloader",
+      "examples": [
+        "SPoRC-Research-Downloader/1.0"
+      ]
+    },
+    {
       "name": "Spotify cache service",
       "examples": [
         "Spotify/1.0"
       ]
     },
     {
+      "name": "spotify-rss-whisper-pipeline",
+      "examples": [
+        "spotify-rss-whisper-pipeline/0.1 (Windows local batch downloader/transcriber)"
+      ]
+    },
+    {
       "name": "Substack Content Fetcher",
       "examples": [
         "SubstackContentFetch/1.0 (https://substack.com/)"
+      ]
+    },
+    {
+      "name": "SummarizeCasts",
+      "examples": [
+        "Mozilla/5.0 (compatible; SummarizeCasts-Worker/1.0)"
       ]
     },
     {
@@ -1156,9 +1535,22 @@
       ]
     },
     {
+      "name": "swiperight-pipeline",
+      "examples": [
+        "swiperight-pipeline/0.1"
+      ]
+    },
+    {
       "name": "Taddy Podcast API",
       "examples": [
         "Taddy Podcast API (https://taddy.org/developers)"
+      ]
+    },
+    {
+      "name": "The Podcast App (Magnolia Apps) server",
+      "examples": [
+        "TPA-Server/1.0 (+https://thepodcastapp.dev)",
+        "Mozilla/5.0 (compatible; TPA-Server/1.0; +https://thepodcastapp.dev)"
       ]
     },
     {
@@ -1192,6 +1584,12 @@
       ]
     },
     {
+      "name": "truename podcast transcriber",
+      "examples": [
+        "truename-podcast-transcriber/1.0"
+      ]
+    },
+    {
       "name": "TurnitinBot",
       "examples": [
         "Turnitin (https://bit.ly/2UvnfoQ)"
@@ -1207,6 +1605,12 @@
       "name": "UCast",
       "examples": [
         "UCast/1.0 Podcast Sync (1 subscribers; feed-id=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMDg0OTQucnNzEAEBAD32-0242-42AC-8583-21E9BAD8C544; +http://www.ucastapp.com/)"
+      ]
+    },
+    {
+      "name": "UniversalFeedParser",
+      "examples": [
+        "UniversalFeedParser/3.3 +http://feedparser.org/"
       ]
     },
     {
@@ -1240,6 +1644,12 @@
       ]
     },
     {
+      "name": "Vercel image optimization",
+      "examples": [
+        "vercel-image-optimization/1.0"
+      ]
+    },
+    {
       "name": "Vercel screenshot",
       "examples": [
         "vercel-screenshot/1.0"
@@ -1261,6 +1671,12 @@
       "name": "weborama",
       "examples": [
         "weborama-fetcher (+http://www.weborama.com)"
+      ]
+    },
+    {
+      "name": "WhisperProxy",
+      "examples": [
+        "Mozilla/5.0 (compatible; WhisperProxy/1.0)"
       ]
     },
     {
@@ -1292,6 +1708,12 @@
       "name": "Yahoo Crawler",
       "examples": [
         "Crawler Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+      ]
+    },
+    {
+      "name": "yushi-podcast-catalog",
+      "examples": [
+        "yushi-podcast-catalog/1.0 (+apple-search-api-policy-first)"
       ]
     },
     {

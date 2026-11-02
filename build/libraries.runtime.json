@@ -16,7 +16,7 @@
     },
     {
       "name": "AppleCoreMedia",
-      "pattern": "^AppleCoreMedia/1"
+      "pattern": "^AppleCoreMedia(/|$)"
     },
     {
       "name": "aria2",
@@ -40,6 +40,10 @@
       "name": "Axios (Node)",
       "pattern": "^axios/",
       "category": "bot"
+    },
+    {
+      "name": "Bruno",
+      "pattern": "^bruno-runtime/"
     },
     {
       "name": "Bubble (no-code)",
@@ -86,7 +90,7 @@
     },
     {
       "name": "FileDownloader (Android)",
-      "pattern": "^FileDownloader/"
+      "pattern": "^FileDownloader(/|$)"
     },
     {
       "name": "git-annex",
@@ -138,7 +142,7 @@
     },
     {
       "name": "Java Platform Default",
-      "pattern": "^Java/\\d",
+      "pattern": "^Java(-http-client)?/\\d",
       "category": "bot"
     },
     {
@@ -148,6 +152,10 @@
     {
       "name": "KaiOS Downloader",
       "pattern": "KaiOS Downloader"
+    },
+    {
+      "name": "Ktor (kotlin)",
+      "pattern": "^ktor-client$"
     },
     {
       "name": "libsoup",
@@ -161,6 +169,11 @@
     {
       "name": "Android License Verification Library",
       "pattern": "^Android\\.LVLDM$"
+    },
+    {
+      "name": "node (fetch)",
+      "pattern": "^node$",
+      "category": "bot"
     },
     {
       "name": "node-fetch",

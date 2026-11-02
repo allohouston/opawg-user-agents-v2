@@ -32,7 +32,7 @@
     },
     {
       "name": "AppleCoreMedia",
-      "pattern": "^AppleCoreMedia/1",
+      "pattern": "^AppleCoreMedia(/|$)",
       "description": "AppleCoreMedia library",
       "urls": [
         "https://podnews.net/article/applecoremedia-user-agent"
@@ -102,6 +102,17 @@
         "axios/0.26.1"
       ],
       "category": "bot"
+    },
+    {
+      "name": "Bruno",
+      "description": "Bruno is a modern, open-source API client used for testing and interacting with APIs",
+      "pattern": "^bruno-runtime/",
+      "examples": [
+        "bruno-runtime/3.2.2"
+      ],
+      "urls": [
+        "https://www.usebruno.com/"
+      ]
     },
     {
       "name": "Bubble (no-code)",
@@ -197,9 +208,10 @@
     },
     {
       "name": "FileDownloader (Android)",
-      "pattern": "^FileDownloader/",
+      "pattern": "^FileDownloader(/|$)",
       "examples": [
-        "FileDownloader/1.7.7"
+        "FileDownloader/1.7.7",
+        "FileDownloader"
       ],
       "urls": [
         "https://github.com/lingochamp/FileDownloader"
@@ -311,12 +323,13 @@
     {
       "name": "Java Platform Default",
       "description": "Java platform-provided client default used in the desktop/server runtime",
-      "pattern": "^Java/\\d",
+      "pattern": "^Java(-http-client)?/\\d",
       "examples": [
         "Java/17",
         "Java/21.0.5",
         "Java/11.0.13",
-        "Java/17.0.1"
+        "Java/17.0.1",
+        "Java-http-client/21.0.11"
       ],
       "category": "bot"
     },
@@ -341,11 +354,22 @@
       ]
     },
     {
+      "name": "Ktor (kotlin)",
+      "pattern": "^ktor-client$",
+      "examples": [
+        "ktor-client"
+      ],
+      "urls": [
+        "https://ktor.io/"
+      ]
+    },
+    {
       "name": "libsoup",
       "pattern": "^libsoup/",
       "examples": [
         "libsoup/2.68.2"
-      ], "urls": [
+      ],
+      "urls": [
         "https://libsoup.org/"
       ],
       "description": "HTTP client/server library for GNOME"
@@ -368,6 +392,14 @@
       "examples": [
         "Android.LVLDM"
       ]
+    },
+    {
+      "name": "node (fetch)",
+      "pattern": "^node$",
+      "examples": [
+        "node"
+      ],
+      "category": "bot"
     },
     {
       "name": "node-fetch",

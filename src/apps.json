@@ -142,8 +142,20 @@
       ]
     },
     {
+      "name": "Alarmcast",
+      "pattern": "^Alarmcast/\\d",
+      "examples": [
+        "Alarmcast/0.8.3",
+        "Alarmcast/0.9.0 (Android)"
+      ],
+      "urls": [
+        "https://alarmcast.app",
+        "https://play.google.com/store/apps/details?id=com.alarmcast.app"
+      ]
+    },
+    {
       "name": "Alexa-enabled device",
-      "pattern": "^AlexaMediaPlayer/[\\dv]|^Echo/|^AlexaService/|^Alexa Mobile Voice/|^Amazon;Echo",
+      "pattern": "^AlexaMediaPlayer/[\\dv]|^Echo/|^AlexaService/|^Alexa Mobile Voice/|^Amazon;Echo|^AmazonAVS/|^AvsDeviceSdk/",
       "svg": "amazon.svg",
       "examples": [
         "Echo/1.0(APNG)",
@@ -154,7 +166,9 @@
         "Amazon;Echo_Dot;27d4dfe427b34d57995b463e5d63198d;;tpapi;3.199.422",
         "Amazon;Echo_Dot_with_clock;27d4dfe427b34d57995b463e5d63198d;;tpapi;3.199.422",
         "Amazon;Echo_Show_5;27d4dfe427b34d57995b463e5d63198d;;tpapi;3.199.422",
-        "Amazon;Echo;27d4dfe427b34d57995b463e5d63198d;;tpapi;3.199.422"
+        "Amazon;Echo;27d4dfe427b34d57995b463e5d63198d;;tpapi;3.199.422",
+        "AmazonAVS/2.3",
+        "AvsDeviceSdk/1.23.0"
       ]
     },
     {
@@ -333,6 +347,18 @@
       ]
     },
     {
+      "name": "Apple AirPlay",
+      "description": "Licensed AirPlay devices under the MFi Program",
+      "pattern": "^AirPlay/\\d.*MFi_AirPlay_Device",
+      "examples": [
+        "AirPlay/2.0 (App/75.112.0) MFi_AirPlay_Device",
+        "AirPlay/2.0 (App/74.128.1) MFi_AirPlay_Device",
+        "AirPlay/2.0 (App/75.109.0) MFi_AirPlay_Device (MFiModelGroup/SWS8WJ_au5GqOy6EPST5H01yx_cxxWwCCtjzUiDqNCQ)",
+        "AirPlay/2.0 (App/80.139.0) MFi_AirPlay_Device (MFiModelGroup/d7dGEIeqGIT-tFALlLbwfMSRUpOE6XfLBDv90DJtpfg)"
+      ],
+      "comments": "e.g. Roku, see https://foliovision.com/2022/06/airplay-appletv-agents, examples via OP3"
+    },
+    {
       "name": "Apple HomePod",
       "description": "Playback initiated directly from the device",
       "pattern": "^AirPodcasts/\\d",
@@ -368,7 +394,7 @@
     },
     {
       "name": "Apple Podcasts",
-      "pattern": "^Podcasts/.*|^Balados/|^Podcasti/|^Podcastit/|^Podcasturi/|^Podcasty/|^Podcast\u2019ler/|^Podcast%E2%80%99ler/|^Podkaster/|^Podcaster/.*\\(.*\\)|^Podcastok/|^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u0438/|^\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u044b/|^\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd/|^\u0627\u0644\u0628\u0648\u062f\u0643\u0627\u0633\u062a/|^\u092a\u0949\u0921\u0915\u093e\u0938\u094d\u091f/|^\u0e1e\u0e47\u0e2d\u0e14\u0e04\u0e32\u0e2a\u0e17\u0e4c/|^\u64ad\u5ba2/|^\ud31f\uce90\uc2a4\ud2b8/|\u30dd\u30c3\u30c9\u30ad\u30e3\u30b9\u30c8/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/|^Podcastok/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^Podcaster/\\d|^%E6%92%AD%E5%AE%A2/|^%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/|^Podcast/|^%E0%B8%9E%E0%B9%87%E0%B8%AD%E0%B8%94%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%97%E0%B9%8C/\\d|%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%82%D0%B0%D1%80/\\d|^%E0%A4%AA%E0%A5%89%E0%A4%A1%E0%A4%95%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F/\\d",
+      "pattern": "^Podcasts/.*|^Balados/|^Podcasti/|^Podcastit/|^Podcasturi/|^Podcasty/|^Podcast’ler/|^Podcast%E2%80%99ler/|^Podkaster/|^Podcaster/.*\\(.*\\)|^Podcastok/|^Подкасти/|^Подкасты/|^פודקאסטים/|^البودكاست/|^पॉडकास्ट/|^พ็อดคาสท์/|^播客/|^팟캐스트/|ポッドキャスト/|^%D8%A7%D9%84%D8%A8%D9%88%D8%AF%D9%83%D8%A7%D8%B3%D8%AA/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/|^%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D0%B8/|^Podcastok/|^%D7%A4%D7%95%D7%93%D7%A7%D7%90%D7%A1%D7%98%D7%99%D7%9D/|^%ED%8C%9F%EC%BA%90%EC%8A%A4%ED%8A%B8/|^%D8%A7%D9%95%D8%B3%D9%85%D8%B9%D9%84%D9%8A/|^Podcaster/\\d|^%E6%92%AD%E5%AE%A2/|^%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/|^Podcast/|^%E0%B8%9E%E0%B9%87%E0%B8%AD%E0%B8%94%E0%B8%84%E0%B8%B2%E0%B8%AA%E0%B8%97%E0%B9%8C/\\d|%D0%9F%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%82%D0%B0%D1%80/\\d|^%E0%A4%AA%E0%A5%89%E0%A4%A1%E0%A4%95%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%9F/\\d",
       "description": "The Apple Podcasts app.",
       "comments": "This could be on iOS, iPadOS or macOS. Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish.",
       "examples": [
@@ -723,6 +749,16 @@
       ]
     },
     {
+      "name": "BetterCast",
+      "pattern": "^BetterCast/",
+      "examples": [
+        "BetterCast/842 CFNetwork/3860.600.12 Darwin/25.5.0"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/bettercast-podcast-player/id6759830475"
+      ]
+    },
+    {
       "name": "BeyondPod",
       "pattern": "; BeyondPod",
       "examples": [
@@ -846,6 +882,16 @@
       ]
     },
     {
+      "name": "Brink",
+      "pattern": "^Brink/",
+      "examples": [
+        "Brink/1.0 (Podcast Audio Cache)"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/brink-podcasts-and-news/id6760338948"
+      ]
+    },
+    {
       "name": "Broadcast",
       "pattern": "^Broadcast/",
       "examples": [
@@ -904,11 +950,12 @@
     },
     {
       "name": "CampfireFM",
-      "pattern": "^Campfire/",
+      "pattern": "^Campfire(FM)?/",
       "description": "CampfireFM",
       "examples": [
         "Campfire/2.0.2 (Build 123) Android/15 (SDK 35)",
-        "Campfire/2.0.2 (Build 123) iOS/18.5.0"
+        "Campfire/2.0.2 (Build 123) iOS/18.5.0",
+        "CampfireFM/1.0 (+https://joincampfire.fm)"
       ],
       "urls": [
         "https://joincampfire.fm/",
@@ -936,6 +983,17 @@
       "examples": [
         "capsule.fm/1 CFNetwork/976 Darwin/18.2.0",
         "capsule-android"
+      ]
+    },
+    {
+      "name": "Car Curious",
+      "pattern": "^CarCurious/",
+      "description": "Podcast player for automotive shows, surfacing timestamped annotations for the cars, parts and terms mentioned in an episode",
+      "urls": [
+        "https://getcarcurious.com"
+      ],
+      "examples": [
+        "CarCurious/1.0 (iOS; +https://getcarcurious.com)"
       ]
     },
     {
@@ -996,13 +1054,15 @@
       ]
     },
     {
-      "name": "castget",
-      "pattern": "^castget ",
-      "urls": [
-        "https://castget.johndal.com/"
-      ],
+      "name": "Castria",
+      "pattern": "^Castria/\\d",
       "examples": [
-        "castget 1.2.4 (castget rss enclosure downloader)"
+        "Castria/1.0 (+https://castria.app)"
+      ],
+      "urls": [
+        "https://castria.app/",
+        "https://apps.apple.com/us/app/castria/id6773306883",
+        "https://play.google.com/store/apps/details?id=com.extroverteddeveloper.podcastify&pli=1"
       ]
     },
     {
@@ -1549,13 +1609,24 @@
     {
       "name": "Earsay",
       "description": "On-device Al detects sponsors and extracts promo codes, deals, and links. Skip the ads and support creators. No subscriptions.",
-      "pattern": "^Earsay/",
+      "pattern": "^[Ee]arsay/",
       "examples": [
-        "Earsay/1.0 CFNetwork/1568 Darwin/24.0"
+        "Earsay/1.0 CFNetwork/1568 Darwin/24.0",
+        "earsay/1.0 CFNetwork/1568 Darwin/24.0"
       ],
       "urls": [
         "https://earsay.app/",
         "https://apps.apple.com/us/app/earsay/id6757127240"
+      ]
+    },
+    {
+      "name": "Earshot",
+      "pattern": "^Earshot/",
+      "examples": [
+        "Earshot/157 CFNetwork/3860.600.12 Darwin/25.5.0"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/earshot-podcasts/id6770760602"
       ]
     },
     {
@@ -1803,6 +1874,23 @@
       "pattern": "(^MAC |^WIN )"
     },
     {
+      "name": "Flipboard",
+      "pattern": " Flipboard/",
+      "examples": [
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Flipboard/4.3.52"
+      ]
+    },
+    {
+      "name": "Flux Entertainment Center",
+      "pattern": "^Flux Entertainment Center/",
+      "examples": [
+        "Flux Entertainment Center/1.0 (Podcast Player)"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/fluxplayer/id6757675334"
+      ]
+    },
+    {
       "name": "folkebladet.no",
       "pattern": "^folkebladet\\.no/",
       "examples": [
@@ -1953,6 +2041,16 @@
       "pattern": "^GBEngine/",
       "examples": [
         "GBEngine/1.2 CFNetwork/672.1.14 Darwin/14.0.0"
+      ]
+    },
+    {
+      "name": "Gertrude Podcasts",
+      "pattern": "^Gertrude%20Podcasts/",
+      "examples": [
+        "Gertrude%20Podcasts/28 CFNetwork/3860.600.12 Darwin/25.5.0"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/gertrude-podcasts/id6753187429"
       ]
     },
     {
@@ -2552,7 +2650,7 @@
       "examples": [
         "JamxFeeds/1.0.3"
       ],
-      "urls":[
+      "urls": [
         "https://play.google.com/store/apps/details?id=ai.jamx.feeds"
       ]
     },
@@ -2974,6 +3072,16 @@
       ]
     },
     {
+      "name": "Micropod",
+      "pattern": "^Micropod/",
+      "examples": [
+        "Micropod/839 CFNetwork/3860.500.112 Darwin/25.4.0"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/micropod-podcasts-with-ai/id6756540501"
+      ]
+    },
+    {
       "name": "Microsoft Outlook",
       "pattern": "^Outlook-Android/|^Microsoft Office/.*?Microsoft Outlook",
       "examples": [
@@ -3061,7 +3169,7 @@
         "mowPod/1.0 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
       ]
     },
-   {
+    {
       "name": "MPlayer",
       "description": "GPL-licensed cross-platform movie player",
       "pattern": "^MPlayer \\d",
@@ -3237,6 +3345,17 @@
       ]
     },
     {
+      "name": "Once Upon a Pod",
+      "pattern": "^OnceUponAPod/",
+      "description": "A podcast app for kids with hand-picked shows",
+      "examples": [
+        "OnceUponAPod/1.0 (+https://www.onceuponapod.com; iOS podcast app for kids)"
+      ],
+      "urls": [
+        "https://www.onceuponapod.com/"
+      ]
+    },
+    {
       "name": "OpenStream",
       "pattern": "^OpenStream/\\d",
       "examples": [
@@ -3371,7 +3490,7 @@
     },
     {
       "name": "Pocket Casts",
-      "pattern": "^Pocket Casts|^Pocket%20Casts|^PocketCasts/|^Shifty Jelly Pocket Casts",
+      "pattern": "^Pocket Casts|^Pocket%20Casts|^PocketCasts/|^Shifty Jelly Pocket Casts| PocketCasts/\\d",
       "description": "A podcast app and web player",
       "svg": "pocketcasts.svg",
       "urls": [
@@ -3382,7 +3501,8 @@
         "Pocket Casts",
         "Shifty Jelly Pocket Casts, iOS v4.2",
         "Pocket%20Casts/7.96.0.4 CFNetwork/3826.600.41 Darwin/24.6.0",
-        "Pocket%20Casts/7.95.0.4 CFNetwork/3826.600.41 Darwin/24.6.0"
+        "Pocket%20Casts/7.95.0.4 CFNetwork/3826.600.41 Darwin/24.6.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) PocketCasts/2.2.0 Chrome/144.0.7559.220 Electron/40.6.1 Safari/537.36"
       ]
     },
     {
@@ -3404,6 +3524,16 @@
         "Podbean/Android App 8.1.5 (http://podbean.com),4f6852f59091d32475ef75a53325a4fe",
         "Podbean/Android generic 1.1.2 (http://podbean.com),9376c517335ded9a716022cc1f15c884",
         "Podbean/iOS (http://podbean.com) 5.2.0 - 19c4ff292bd09cd2ccbad22cc6755a45"
+      ]
+    },
+    {
+      "name": "Podcast Ever",
+      "pattern": "^Podcast%20Ever/",
+      "examples": [
+        "Podcast%20Ever/23 CFNetwork/3860.600.12 Darwin/25.5.0"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/podcast-ever-offline-podcasts/id6756324987"
       ]
     },
     {
@@ -3455,6 +3585,18 @@
       "examples": [
         "Podcastly/1.4.1 (samsung; CPU OS android 11; en_us)",
         "Podcastly"
+      ]
+    },
+    {
+      "name": "Podcast Parrot",
+      "pattern": "^Podcast(%20)?Parrot/\\d",
+      "examples": [
+        "Podcast%20Parrot/49 CFNetwork/3892.100.1 Darwin/27.0.0",
+        "PodcastParrot/51 (iOS 26.5.2)",
+        "PodcastParrot/51 (Android 16)"
+      ],
+      "urls": [
+        "https://podcastparrot.app/"
       ]
     },
     {
@@ -3609,7 +3751,7 @@
       "pattern": "PodLink",
       "svg": "podlink.svg",
       "urls": [
-        "https://pod.link/faq/crawler"
+        "https://feedback.podlink.com/hc/articles/getting-started/analytics"
       ]
     },
     {
@@ -3768,6 +3910,19 @@
       ]
     },
     {
+      "name": "PrestoCast",
+      "pattern": "^(PrestoCast|PrestoCastDev)/",
+      "examples": [
+        "PrestoCast/26 CFNetwork/3860.500.112 Darwin/25.4.0",
+        "PrestoCastDev/1 CFNetwork/3860.400.51 Darwin/25.3.0"
+      ],
+      "urls": [
+        "https://prestocast.com/",
+        "https://apps.apple.com/us/app/prestocast/id6760949716",
+        "https://play.google.com/store/apps/details?id=com.prestocast.app"
+      ]
+    },
+    {
       "name": "ProCast",
       "pattern": "^Pro[Cc]ast/\\d|^com\\.podflitzer\\.android/\\d|^Procast \\(",
       "description": "The new generation of Podcast player.",
@@ -3789,6 +3944,16 @@
       ],
       "urls": [
         "https://www.pugpig.com/products-and-services"
+      ]
+    },
+    {
+      "name": "PulsarCast",
+      "pattern": "^PulsarCast/",
+      "examples": [
+        "PulsarCast/24 CFNetwork/3860.600.12 Darwin/25.5.0"
+      ],
+      "urls": [
+        "https://pulsarcast.com/"
       ]
     },
     {
@@ -3931,6 +4096,16 @@
       ],
       "urls": [
         "https://apps.apple.com/us/app/radios-m%C3%A9xico/id1042399696"
+      ]
+    },
+    {
+      "name": "ReadYou",
+      "pattern": "^ReadYou/",
+      "examples": [
+        "ReadYou/0.13.1(32)"
+      ],
+      "urls": [
+        "https://github.com/ReadYouApp/ReadYou"
       ]
     },
     {
@@ -4080,8 +4255,22 @@
       ]
     },
     {
+      "name": "Shuttle Podcasts",
+      "pattern": "^ShuttlePodcasts/\\d",
+      "description": "A podcast app",
+      "urls": [
+        "https://shuttlepodcasts.app",
+        "https://play.google.com/store/apps/details?id=com.simplecityapps.shuttle.podcasts"
+      ],
+      "comments": "Not related to 'Download Shuttle'. Streaming and downloads send the same User-Agent as feed requests.",
+      "examples": [
+        "ShuttlePodcasts/2026.02.05 (Android; +https://shuttlepodcasts.app)",
+        "ShuttlePodcasts/2.4.1 (iOS; +https://shuttlepodcasts.app)"
+      ]
+    },
+    {
       "name": "SiriusXM",
-      "pattern": "^SiriusXM\/\\d|SXMApp|sxm-android|sxm-apple/",
+      "pattern": "^SiriusXM/\\d|SXMApp|sxm-android|sxm-apple/",
       "examples": [
         "SiriusXM/1608138304 CFNetwork/1206 Darwin/20.1.0",
         "SXMApp/36270 CFNetwork/1496.0.7 Darwin/23.5.0",
@@ -4172,6 +4361,18 @@
       ],
       "urls": [
         "https://play.google.com/store/apps/details?id=com.dne.wavesapp&hl=en_US&gl=US"
+      ]
+    },
+    {
+      "name": "Spool",
+      "pattern": "^Spool/",
+      "description": "A podcast player for iPhone and iPad",
+      "urls": [
+        "https://spoolcast.ca",
+        "https://apps.apple.com/app/id6809485942"
+      ],
+      "examples": [
+        "Spool/1.0 (iOS podcast client)"
       ]
     },
     {
@@ -4474,6 +4675,21 @@
       ]
     },
     {
+      "name": "The Podcast App (Magnolia Apps)",
+      "pattern": "^TPA/\\d|^TPA-Wear/",
+      "description": "Free podcast player for iOS, Android and Wear OS by Magnolia Apps. Not related to the existing \"The Podcast App\" entry (podcast.app / com.evolve.podcast).",
+      "urls": [
+        "https://thepodcastapp.dev",
+        "https://apps.apple.com/app/the-podcast-app/id6754806244",
+        "https://play.google.com/store/apps/details?id=com.magnolia.thepodcastapp"
+      ],
+      "comments": "Developer-submitted. TPA-Wear/ is the Wear OS build; TPA/ is the phone app (Android and iOS).",
+      "examples": [
+        "TPA/3.0.468 (+https://thepodcastapp.dev)",
+        "TPA-Wear/1.0"
+      ]
+    },
+    {
       "name": "Twipe Mobile App",
       "pattern": "^TwipeMobileApp",
       "examples": [
@@ -4492,6 +4708,31 @@
       ],
       "urls": [
         "https://www.miaocast.com/"
+      ]
+    },
+    {
+      "name": "Mediamax Waves",
+      "pattern": "^MediamaxWaves/",
+      "description": "Mediamax Waves mobile app for Kenyan radio stations and podcasts",
+      "urls": [
+        "https://mediamaxwaves.com/",
+        "https://apps.apple.com/app/mediamax-waves/id6757711990",
+        "https://play.google.com/store/apps/details?id=app.mediamax.mediamax"
+      ],
+      "examples": [
+        "MediamaxWaves/1.0"
+      ]
+    },
+    {
+      "name": "Momo",
+      "pattern": "^Momo-Podcast/",
+      "examples": [
+        "Momo-Podcast/1.0 (+https://exploremomo.com)"
+      ],
+      "urls": [
+        "https://exploremomo.com",
+        "https://apps.apple.com/nl/app/momo/id6449619727",
+        "https://play.google.com/store/apps/details?id=com.exploremomo.momo"
       ]
     },
     {
@@ -4560,7 +4801,7 @@
     },
     {
       "name": "Turtlecast",
-      "pattern": "^(Turtlecast|TURTLECAST)\/",
+      "pattern": "^(Turtlecast|TURTLECAST)/",
       "urls": [
         "https://www.turtlecast.app/"
       ],
@@ -4614,6 +4855,17 @@
       ]
     },
     {
+      "name": "Up Next",
+      "pattern": "^UpNext/",
+      "examples": [
+        "UpNext/18 CFNetwork/3860.600.12 Darwin/25.5.0",
+        "UpNext/15 CFNetwork/3860.500.112 Darwin/25.4.0"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/up-next-podcast-client/id6477821584"
+      ]
+    },
+    {
       "name": "uTorrent",
       "pattern": "^uTorrent|BTWebClient",
       "examples": [
@@ -4659,6 +4911,16 @@
       ],
       "examples": [
         "VLC/3.0.8 LibVLC/3.0.8"
+      ]
+    },
+    {
+      "name": "Vo",
+      "pattern": "^Vo/",
+      "examples": [
+        "Vo/1.0 (Podcast Player; +https://vo.fm)"
+      ],
+      "urls": [
+        "https://vo.fm/"
       ]
     },
     {
@@ -4805,7 +5067,7 @@
     },
     {
       "name": "YouTube Music",
-      "pattern": "^com\\.google\\.android\\.apps\\.youtube\\.music/|^YouTubeMusic/\\d|^com\\.google\\.ios\\.youtubemusic/",
+      "pattern": "^com\\.google\\.android\\.apps\\.youtube\\.music/|^YouTubeMusic/\\d|^com\\.google\\.ios\\.youtubemusic/|^YouTube Music/\\d",
       "examples": [
         "com.google.android.apps.youtube.music/62354340 (Linux; U; Android 14; en_US; Pixel 7 Pro; Build/UP1A.231105.002; Cronet/114.0.5735.84)",
         "com.google.android.apps.youtube.music/62251340 (Linux; U; Android 14; en_US; Pixel 7 Pro; Build/UP1A.231005.007; Cronet/114.0.5735.84)",
@@ -4814,7 +5076,8 @@
         "YouTubeMusic/20231020.1.1 CFNetwork/1474 Darwin/23.0.0",
         "YouTubeMusic/20230915.1.1 CFNetwork/1410.0.3 Darwin/22.6.0",
         "YouTubeMusic/6.29.2 CFNetwork/1485 Darwin/23.1.0",
-        "com.google.ios.youtubemusic/6.21 (iPhone14,3; U; CPU iOS 15_7_1 like Mac OS X; en_US)"
+        "com.google.ios.youtubemusic/6.21 (iPhone14,3; U; CPU iOS 15_7_1 like Mac OS X; en_US)",
+        "YouTube Music/6.52.52 (Linux; U; Android 14)"
       ],
       "urls": [
         "https://music.youtube.com/"

@@ -94,7 +94,7 @@
     },
     {
       "name": "Other Smart TV",
-      "pattern": "SmartTV|[Rr]oku|CrKey|AFTT Build|AFTM Build|BRAVIA 4K|Opera TV|SmartTv|TSBNetTV|SMART-TV|SMART_TV|TV Safari|WebTV|InettvBrowser|GoogleTV|HbbTV|smart-tv|TVStick|olleh tv|^sony_tv;ps5;|Microsoft Xbox|^microsoft;xbox_|^Google;Chromecast|^TCL;|^Xiaomi;(MIBOX|MiTV-)|^samsung;(un|qn|ue|uj|ua|ls|qe|qa|lh|gq|gu)\\d|^hisense;(c235x|c205x)|^skyworth;(NoblexTV|SWTV)|^Sony;BRAVIA|^tcl;(c1\\d{2}x|7140x)|^onn\\.;8821x|^Funai;PHILIPS4KTV|^Sagemcom;(VSB|DIW)|^TPV;[A-Z0-9]+AndroidTV;|^(CVT_NULL|MediaTek);SMARTTV;|^NVIDIA;SHIELDAndroidTV|UHDAndroidTV;|^westinghouse;7808x;|^ZTE;B820C|Sky, (ES|EM)|^Cinemo/\\d| Cinemo/\\d|^Amazon;(AFTSSS|AFTMM|AFTSS|AFTKA|AFTT|AFTDCT31|AFTKM|AFTKRT|AFTHA004|AFTEAMR311);|^nowtv;|^SEIRobotics;yes|^Changhong;AIPONT|^Arcadyan;Bouygtel|^Amlogic;ONVO|^Philips;TPM|^MediaTek;39LHA120TP",
+      "pattern": "SmartTV|[Rr]oku|CrKey|AFTT Build|AFTM Build|BRAVIA 4K|Opera TV|SmartTv|TSBNetTV|SMART-TV|SMART_TV|TV Safari|WebTV|InettvBrowser|GoogleTV|HbbTV|smart-tv|TVStick|olleh tv|^sony_tv;ps5;|Microsoft Xbox|^microsoft;xbox_|^Google;Chromecast|^TCL;|^Xiaomi;(MIBOX|MiTV-)|^samsung;(un|qn|ue|uj|ua|ls|qe|qa|lh|gq|gu)\\d|^hisense;(c235x|c205x)|^skyworth;(NoblexTV|SWTV)|^Sony;BRAVIA|^tcl;(c1\\d{2}x|7140x)|^onn\\.;8821x|^Funai;PHILIPS4KTV|^Sagemcom;(VSB|DIW)|^TPV;[A-Z0-9]+AndroidTV;|^(CVT_NULL|MediaTek);SMARTTV;|^NVIDIA;SHIELDAndroidTV|UHDAndroidTV;|^westinghouse;7808x;|^ZTE;B820C|Sky, (ES|EM)|^Cinemo/\\d| Cinemo/\\d|^Amazon;(AFTSSS|AFTMM|AFTSS|AFTKA|AFTT|AFTDCT31|AFTKM|AFTKRT|AFTHA004|AFTEAMR311);|^nowtv;|^SEIRobotics;yes|^Changhong;AIPONT|^Arcadyan;Bouygtel|^Amlogic;ONVO|^Philips;TPM|^MediaTek;39LHA120TP|^samsung-agent/|^AirPlay/\\d.*MFi_AirPlay_Device",
       "category": "smart_tv",
       "comments": "Must be before Android Phones",
       "examples": [
@@ -167,12 +167,15 @@
         "Philips;TPM191E;756a522d9f1648b89e76e80be654456a;;tpapi;3.122.67",
         "MediaTek;39LHA120TP;756a522d9f1648b89e76e80be654456a;;tpapi;3.127.32",
         "samsung;gq55q60tguxzg;568a50c7e7f64fe3b44a3316ef5590fd;;tpapi;3.194.71",
-        "samsung;gu50tu7079uxzg;568a50c7e7f64fe3b44a3316ef5590fd;;tpapi;3.194.71"
+        "samsung;gu50tu7079uxzg;568a50c7e7f64fe3b44a3316ef5590fd;;tpapi;3.194.71",
+        "samsung-agent/1.1",
+        "AirPlay/2.0 (App/75.112.0) MFi_AirPlay_Device",
+        "AirPlay/2.0 (App/80.139.0) MFi_AirPlay_Device (MFiModelGroup/d7dGEIeqGIT-tFALlLbwfMSRUpOE6XfLBDv90DJtpfg)"
       ]
     },
     {
       "name": "Android Phone",
-      "pattern": "ServeStream|Android|android|HTC|ExoPlayer|^AntennaPod/|^GSA/.*\\.arm(64)?$|^sp-agent|^PRDownloader$|^(Turtlecast|TURTLECAST)\/|\\((SM-A15|SM-A55|moto g|RMO-NX3)",
+      "pattern": "ServeStream|Android|android|HTC|ExoPlayer|^AntennaPod/|^GSA/.*\\.arm(64)?$|^sp-agent|^PRDownloader$|^(Turtlecast|TURTLECAST)/|\\((SM-A15|SM-A55|moto g|RMO-NX3)",
       "category": "mobile",
       "comments": "Must be after CrKey and Android Tablet",
       "examples": [
@@ -207,7 +210,7 @@
     },
     {
       "name": "Other Smart Speaker",
-      "pattern": "sonos|Sonos|^Bose/|^VictorReader|^Bose;Bose_(Home_Speaker|Soundbar|Portable_Home|Smart_Speaker)|^HEOS;DENON|^Denon;DENON-(DWHS|DWMINI)|^Storybutton/|^Bluesound;|^Yamaha;(WX-|YAS_|ATS_|SR-)|^Xiaomi;07G|^(BangAndOlufsen|Bang_And_Olufsen);beo_|^ArgonAudio;SOLO;|^Samsung;HW-(Q9|Q8|Q7|LS60D|S6|S8)|^LenbrookIndustries;NADAmplifier|^Marshall;Uxbridge|^Edifier;MS50A|^Wiim;Pro;|^Naim_Audio;Mu-so|^Audio_Pro;C10MKII|^Devialet;Mania|^Bowers___Wilkins;Zeppelin|^JBL;Charge_5",
+      "pattern": "sonos|Sonos|^Bose/|^VictorReader|^Bose;Bose_(Home_Speaker|Soundbar|Portable_Home|Smart_Speaker)|^HEOS;DENON|^Denon;DENON-(DWHS|DWMINI)|^Storybutton/|^Bluesound;|^Yamaha;(WX-|YAS_|ATS_|SR-)|^Xiaomi;07G|^(BangAndOlufsen|Bang_And_Olufsen);beo_|^ArgonAudio;SOLO;|^Samsung;HW-(Q9|Q8|Q7|LS60D|S6|S8)|^LenbrookIndustries;NADAmplifier|^Marshall;Uxbridge|^Edifier;MS50A|^Wiim;Pro;|^Naim_Audio;Mu-so|^Audio_Pro;C10MKII|^Devialet;Mania|^Bowers___Wilkins;Zeppelin|^JBL;Charge_5|^Kenwood;|^Audizio;|^Argon;Stream",
       "category": "smart_speaker",
       "examples": [
         "Bluesound;N110;3d1292a4f7bc4cbc853faa331d07348a;;tpapi;3.194.61",
@@ -250,7 +253,10 @@
         "Samsung;HW-S800B;f92d2110c0e3483c82534460ac6b08bf;;tpapi;3.194.61",
         "Samsung;HW-S60B;f92d2110c0e3483c82534460ac6b08bf;;tpapi;3.194.61",
         "Yamaha;SR-X50A;59c7bf046992472ab0689f5fc7fa08e2;;tpapi;3.194.71",
-        "JBL;Charge_5_Wi-Fi;ae8cc5068e6443f3b90da43a356e7578;;tpapi;3.194.61"
+        "JBL;Charge_5_Wi-Fi;ae8cc5068e6443f3b90da43a356e7578;;tpapi;3.194.61",
+        "Kenwood;CR-ST700SCD;d6b97f06634d476e946238ef2b8eb4e0;;tpapi;3.198.55",
+        "Audizio;Adria;902ce3b9eaa84026afcb93aa46002b5a;;tpapi;3.200.445",
+        "Argon;Stream3;bafeb878ad744864bd2021cbb5988111;;tpapi;3.200.445"
       ]
     },
     {
@@ -274,7 +280,7 @@
     },
     {
       "name": "Other Mobile Device",
-      "pattern": "Player FM$|^Podkicker\/|spotify_unknown|^Castro|^Swoot Agent| KAIOS/|^Zune/|^PodcastGuru |^Pocket Casts$|^AmazonMusic$|RTL\\+",
+      "pattern": "Player FM$|^Podkicker/|spotify_unknown|^Castro|^Swoot Agent| KAIOS/|^Zune/|^PodcastGuru |^Pocket Casts$|^AmazonMusic$|RTL\\+",
       "category": "mobile",
       "examples": [
         "Mozilla/5.0 (Mobile; Nokia_8110_4G; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1 PodKast",
